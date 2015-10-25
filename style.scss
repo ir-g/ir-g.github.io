@@ -113,9 +113,10 @@ pre { overflow-x: scroll; }
     display: block;
   }
   .nav{
+    text-align: center;
+    display: block;
     float: none;
-    padding-top: 1em;
-    text-align: left;
+    /*padding-top: 1em;*/
   }
   h1 {
     display: inherit;

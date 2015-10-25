@@ -70,9 +70,15 @@ a {
 
 .pagination { font-size: small; }
 
-h1 { display: inline; text-align: left; }
+h1 {
+  display: inline;
+  font-weight: 200;
+}
 
-h2 { display: inline; color: gray; }
+h2 {
+  color: gray;
+  font-weight: 200;
+}
 
 a { color: #0096cc; text-decoration: none; }
 

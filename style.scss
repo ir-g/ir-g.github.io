@@ -1,14 +1,20 @@
 ---
 # The styles
 ---
+$font = "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+
 html {
   overflow-y: scroll;
 }
 
 body {
   background: white;
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;;
+  font-family: $font;
   padding: 0 5%;
+}
+
+.font-std{
+  font-family: $font;
 }
 
 #all {

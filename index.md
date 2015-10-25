@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## Home
+
 Hi! I'm a developer and designer based in Birmingham, United Kingdom.
 
 I <a href="http://twitter.com/{{site.twitter_username}}">tweet</a>, <a href="/blog/">blog</a> and <a href="http://github.com/isaacrg">code</a>.

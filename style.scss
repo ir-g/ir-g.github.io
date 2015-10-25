@@ -1,7 +1,7 @@
 ---
 # The styles
 ---
-$font = "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
+$font : "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
 
 html {
   overflow-y: scroll;
@@ -104,7 +104,7 @@ pre { overflow-x: scroll; }
   }
   .nav{
     float: none;
-    padding-top: 1em
+    padding-top: 1em;
     text-align: left;
   }
   h1 { display: inherit;}

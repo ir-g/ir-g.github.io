@@ -76,10 +76,11 @@ is_post:                        {{ page.is_post }}
 blogmenu:                       {{ blogmenu }}
 -->
       <div id="header">
-        <a href="/"><h1 class="site-title active">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
+        <a href="/"><h1 class="site-title {% if page.url == "/" %}active{%endif%}">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
         <div class="nav">
-          <a {% if blogmenu %}class="active"{%endif%} href="/blog">Blog</a>
-          <a {% if splitted_url_parts[1] == "contact" %}class="active"{%endif%} href="/contact">Contact</a>
+          <a id="menu-link-home" class="{% if page.url == "/" %}active{%endif%}">Home</a>
+          <a class="{% if blogmenu %}active{%endif%}" href="/blog">Blog</a>
+          <a class="{% if splitted_url_parts[1] == "contact" %}active{%endif%}" href="/contact">Contact</a>
         </div>
       </div>
       <div id="content">

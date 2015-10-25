@@ -35,7 +35,7 @@
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@isaacreidguest">
     <meta name="twitter:creator" content="@isaacreidguest">
@@ -45,28 +45,12 @@
   </head>
   <body>
     <div id="all">
-      <!--
-Parent paths[0]: {{ page.parent_path }} Current path:    {{ page.url }}
-{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-page_url_without_index_html:    {{ page_url_without_index_html }}
-splitted_url_parts:             {{ splitted_url_parts }}
-first_part:                     {{ splitted_url_parts[1] }}
-parts:                          {% for part in splitted_url_parts %}{{ part }} - {% endfor %}
-is_post:                        {{ page.is_post }}
-{% if page.is_post %}
-{% assign blogmenu = true %}
-{% elsif splitted_url_parts[1] == "blog" %}
-{% assign blogmenu = true %}
-{% else %}
-{% assign blogmenu = false %}
-{% endif %}
-blogmenu:                       {{ blogmenu }}
--->
+<!-- Parent paths[0]: {{ page.parent_path }} Current path:    {{ page.url }} {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %} {% assign splitted_url_parts = page_url_without_index_html | split: '/' %} page_url_without_index_html:    {{ page_url_without_index_html }} splitted_url_parts: {{ splitted_url_parts }} first_part: {{ splitted_url_parts[1] }} parts:  {% for part in splitted_url_parts %}{{ part }} - {% endfor %}is_post:                        {{ page.is_post }}
+{% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %} blogmenu:                       {{ blogmenu }}-->
       <div id="header">
         <a href="/"><h1 class="site-title {% if page.url == "/" %}active{%endif%}">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
         <div class="nav">
-          <a id="menu-link-home" class="{% if page.url == "/" %}active{%endif%}">Home</a>
+          <a id="menu-link-home" class="{% if page.url == "/" %}active{%endif%}" href="/">Home</a>
           <a class="{% if blogmenu %}active{%endif%}" href="/blog">Blog</a>
           <a class="{% if splitted_url_parts[1] == "contact" %}active{%endif%}" href="/contact">Contact</a>
         </div>

@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Contact Me
-permalink: /blog
+title: Blog
 ---
 
   <h1>Blog Posts</h1>

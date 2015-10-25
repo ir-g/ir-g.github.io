@@ -93,9 +93,13 @@ hr { color: #f5f5f5; background-color: #f5f5f5; height: 5px; border: 0px; }
 pre { overflow-x: scroll; }
 
 @media(max-width: 400px){
+  .site-title {
+    text-align: center;
+  }
   .nav{
     float: none;
     padding-top: 1em
+    text-align: left;
   }
   h1 { display: inherit;}
   h2 { display: inherit;}

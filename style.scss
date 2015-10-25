@@ -23,11 +23,18 @@ body {
 /*
 #footer { font-size: small; color: black; text-align: right; }
 */
+a {
+  color: #0096cc;
+  text-decoration: none;
+}
 
 .nav {
   text-align: right;
   font-weight: 100;
   float: right;
+  a{
+    color: black;
+  }
 }
 
 .disabled-link { color: #999; }

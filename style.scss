@@ -22,6 +22,10 @@ body {
   // box-shadow: 1.5px 1.5px 6px rgba(0, 0, 0, 0.15);
 }
 
+#menu-link-home{
+  display: none;
+}
+
 /*
 #footer { font-size: small; color: black; text-align: right; }
 */
@@ -116,5 +120,8 @@ pre { overflow-x: scroll; }
   }
   .site-title span {
     display: none;
+  }
+  #menu-link-home{
+    display: block;
   }
 }

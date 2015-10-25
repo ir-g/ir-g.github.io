@@ -75,17 +75,11 @@ is_post:                        {{ page.is_post }}
 {% endif %}
 blogmenu:                       {{ blogmenu }}
 -->
-
-
-
-<a {% if page.url == "/" %}class="active"{%endif%} href="/">Home</a>
-<a {% if blogmenu %}class="active"{%endif%} href="/blog">Blog</a>
-<a {% if splitted_url_parts[1] == "contact" %}class="active"{%endif%} href="/contact">Contact</a>
       <div id="header">
         <div class="nav">
-          <a href="/">Home</a>
-          <a href="/blog">Blog</a>
-          <a href="/contact">Contact</a>
+          <a {% if page.url == "/" %}class="active"{%endif%} href="/">Home</a>
+          <a {% if blogmenu %}class="active"{%endif%} href="/blog">Blog</a>
+          <a {% if splitted_url_parts[1] == "contact" %}class="active"{%endif%} href="/contact">Contact</a>
         </div>
         <h1>Isaac Reid-Guest</h1>
       </div>

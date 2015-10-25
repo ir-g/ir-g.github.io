@@ -110,6 +110,7 @@ pre { overflow-x: scroll; }
 @media(max-width: 400px){
   .site-title {
     text-align: center;
+    display: block;
   }
   .nav{
     float: none;

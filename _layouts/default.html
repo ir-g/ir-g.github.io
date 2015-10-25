@@ -77,7 +77,6 @@ blogmenu:                       {{ blogmenu }}
 -->
       <div id="header">
         <div class="nav">
-          <a {% if page.url == "/" %}class="active"{%endif%} href="/">Home</a>
           <a {% if blogmenu %}class="active"{%endif%} href="/blog">Blog</a>
           <a {% if splitted_url_parts[1] == "contact" %}class="active"{%endif%} href="/contact">Contact</a>
         </div>

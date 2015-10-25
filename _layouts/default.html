@@ -28,9 +28,8 @@
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
   
-    <!-- Open Graph -->
-    <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
-    <meta property="og:locale" content="en_US">
+    <!-- Open Graph --><!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+    <meta property="og:locale" content="en_GB">
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -40,25 +39,14 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@isaacreidguest">
     <meta name="twitter:creator" content="@isaacreidguest">
-    {% if page.title %}
-    <meta name="twitter:title" content="{{ page.title }}">
-    {% else %}
-    <meta name="twitter:title" content="{{ site.title }}">
-    {% endif %}
-    {% if page.url %}
-    <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-    {% endif %}
-    {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
-    {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
-    {% endif %}
+    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="{{ site.title }}">{% endif %}
+    {% if page.url %}<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">{% endif %}
+    {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
   </head>
   <body>
     <div id="all">
       <!--
-Parent paths[0]: {{ page.parent_path }}
-Current path:    {{ page.url }}
+Parent paths[0]: {{ page.parent_path }} Current path:    {{ page.url }}
 {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
 {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
 page_url_without_index_html:    {{ page_url_without_index_html }}

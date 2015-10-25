@@ -1,0 +1,60 @@
+# Site settings
+title:       Isaac Reid-Guest
+email:       isaac.reid.guest@gmail.com
+author:      Isaac Reid-Guest
+description: "An occasional web outpost of Isaac Reid-Guest."
+baseurl:     ""
+url:         "http://isaacrg.github.io"
+
+github:
+  repo: isaacrg/isaacrg.github.io
+  branch: master
+
+# Google analytics
+google_analytics: UA-38333068-1
+
+# Custom blog path
+permalink: "/:year-:month-:date/:title"
+
+# Social icons
+github_username: isaacrg
+twitter_username: isaacreidguest
+google_plus_id: isaacreidguest
+# Build settings
+markdown:     kramdown
+permalink:    pretty
+sass:
+  compressed: true
+
+# custom redirects collection
+
+collections:
+  redirect_urls:
+    output: true
+    permalink: /:path.html
+
+# Set Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: redirect_urls
+    values:
+      layout: redirect
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      is_post: true
+
+
+# As according to https://help.github.com/articles/sitemaps-for-github-pages/
+gems:
+  - jekyll-sitemap

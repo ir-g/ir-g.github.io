@@ -24,7 +24,11 @@ body {
 #footer { font-size: small; color: black; text-align: right; }
 */
 
-.nav { text-align: right; }
+.nav {
+  text-align: right;
+  font-weight: 100;
+  font-size: x-large;
+}
 
 .disabled-link { color: #999; }
 

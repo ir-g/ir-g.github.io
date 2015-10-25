@@ -13,10 +13,6 @@ body {
   padding: 0 5%;
 }
 
-.font-std{
-  font-family: $font;
-}
-
 #all {
   background: white;
   max-width: 900px;
@@ -47,6 +43,12 @@ a {
 
 .font-monospace{
   font-family: monospace;
+}
+.font-std{
+  font-family: $font;
+}
+.font-medium{
+  font-size: medium;
 }
 .font-small{
   font-size: small;

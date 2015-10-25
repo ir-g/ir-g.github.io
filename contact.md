@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: Contact Me
-permalink: /contact/
 ---
+
+## Contact Me
 
 Email me at:
 

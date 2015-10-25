@@ -32,6 +32,8 @@ a {
   text-align: right;
   font-weight: 100;
   float: right;
+  font-size: medium;
+  padding-top: 1em;
   a{
     color: black;
   }
@@ -92,6 +94,7 @@ pre { overflow-x: scroll; }
 @media(max-width: 400px){
   .nav{
     float: none;
+    padding-top: 1em
   }
   h1 { display: inherit;}
   h2 { display: inherit;}

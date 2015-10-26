@@ -3,7 +3,7 @@ layout: default
 ---
 <div id="post-header">
   <h2>{{ page.title }}</h2>
-  <span class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</span><br>
+  <p class="date font-monospace">{{ post.date | date_to_string }}</p>
 </div>
 <div id="post-content">
   {{content}}

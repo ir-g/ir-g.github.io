@@ -42,10 +42,18 @@
     {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="{{ site.title }}">{% endif %}
     {% if page.url %}<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">{% endif %}
     {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
+    
+    <script>
+      window.onkeydown=function(e){
+        if(e.KeyIdentifier=="U+0045"){ //On keypress (e)
+          window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="all">
-<!-- Parent paths[0]: {{ page.parent_path }} Current path:    {{ page.url }} {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %} {% assign splitted_url_parts = page_url_without_index_html | split: '/' %} page_url_without_index_html:    {{ page_url_without_index_html }} splitted_url_parts: {{ splitted_url_parts }} first_part: {{ splitted_url_parts[1] }} parts:  {% for part in splitted_url_parts %}{{ part }} - {% endfor %}is_post:                        {{ page.is_post }}
+<!-- Parent paths[0]: {{ page.parent_path }} Current path:    {{ page.url }} {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %} {% assign splitted_url_parts = page_url_without_index_html | split: '/' %} page_url_without_index_html: {{ page_url_without_index_html }} splitted_url_parts: {{ splitted_url_parts }} first_part: {{ splitted_url_parts[1] }} parts:  {% for part in splitted_url_parts %}{{ part }} - {% endfor %} is_post: {{ page.is_post }}
 {% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %} blogmenu:                       {{ blogmenu }}-->
       <div id="header">
         <a href="/"><h1 class="site-title {% if page.url == "/" %}active{%endif%}">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>

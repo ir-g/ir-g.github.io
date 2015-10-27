@@ -44,9 +44,14 @@
     {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
     
     <script>
+      var edCount = 0;
       window.onkeydown=function(e){
         if(e.keyIdentifier=="U+0045"){ //On keypress (e)
-          window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
+          edCount += 1;
+          console.log("e key pressed " + edCount + "times is succession");
+          if(edCount==5) window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
+        }else{
+          edCount = 0
         }
       }
     </script>

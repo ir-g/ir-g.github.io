@@ -46,7 +46,7 @@
     <script>
       var edCount = 0;
       window.onkeydown=function(e){
-        if(e.keyIdentifier=="U+0045"){ //On keypress (e)
+      if(e.keyCode==69){ //On keypress (e)
           edCount += 1;
           console.log("e key pressed " + edCount + "times is succession");
           if(edCount==5) window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"

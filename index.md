@@ -12,4 +12,6 @@ I have made a number of software projects, mostly on <a href="https://github.com
 
 I also have some interest in UK and International politics, and the wider affect it can and does have. I have also placed a  <a href="http://j.mp/nationalised-rail">Petition for Nationalised Rail</a> on the the UK Parliament Petitions website.
 
-I occasionally use [Tumblr](http://tumblr.ir-g.uk).
+I occasionally use [Tumblr](http://tumblr.ir-g.uk) .
+
+If you want to buy me coffee for my work, why not [pay me here](https://paypal.me/irg)? Any gift appreciated.

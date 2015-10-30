@@ -140,3 +140,6 @@ pre { overflow-x: scroll; }
     display: inherit;
   }
 }
+div, iframe, img{
+  max-width: 100%;
+}

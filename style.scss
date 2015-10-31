@@ -13,6 +13,10 @@ body {
   padding: 0 5%;
 }
 
+.date :target {
+    background: lightyellow;
+}
+
 #all {
   background: white;
   max-width: 700px;

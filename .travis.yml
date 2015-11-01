@@ -3,3 +3,7 @@ before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown
 script: jekyll build --safe
+notifications:
+  email:
+    on_success: change # default: change
+    on_failure: change # default: always

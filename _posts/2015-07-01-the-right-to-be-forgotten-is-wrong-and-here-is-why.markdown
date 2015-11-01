@@ -1,6 +1,7 @@
 ---
 layout: post 
-title:  "The Right to be forgotten is wrong, and here is why" 
+title:  The Right to be forgotten
+description: Censored search
 date:   2015-07-01T14:04:54.942Z 
 ---
 

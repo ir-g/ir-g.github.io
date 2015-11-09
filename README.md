@@ -2,6 +2,4 @@
 
 [![Build Status](https://travis-ci.org/isaacrg/isaacrg.github.io.svg?branch=master)](https://travis-ci.org/isaacrg/isaacrg.github.io)
 
-*Press e on any page to open edit dialog.*
-
-Also hosted on http://glass-maker-benedict-84324.netlify.com/
+*Press e on any page to open edit dialog.* (press 5 times on the website)

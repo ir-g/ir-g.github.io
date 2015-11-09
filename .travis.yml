@@ -1,9 +1,11 @@
+sudo: required
 language: ruby
 rvm:
   - 2.0.0
 before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown
+- travis_retry sudo apt-get install tree -y
 script:
 - jekyll build --safe
 - tree _site

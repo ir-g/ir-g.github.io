@@ -14,4 +14,5 @@ I also have some interest in UK and International politics, and the wider affect
 
 I occasionally use [Tumblr](http://tumblr.ir-g.uk) .
 
-If you want to buy me coffee for my work, why not [pay me here](https://paypal.me/irg)? Any gift appreciated.
+If you want to say thanks, why not [pay me here](https://paypal.me/irg)? Any gift appreciated.
+If you prefer to <a href="https://flattr.com/submit/auto?user_id=isaacrg&url=http%3A%2F%2Fir-g.uk" target="_blank"><img src="//button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>, you can.

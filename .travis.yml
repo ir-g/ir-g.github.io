@@ -4,7 +4,9 @@ rvm:
 before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown
-script: jekyll build --safe
+script:
+- jekyll build --safe
+- tree _site
 notifications:
   email:
     on_success: change # default: change

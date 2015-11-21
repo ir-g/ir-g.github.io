@@ -1,9 +1,15 @@
 ---
 layout: default
-title: Contact 
+title: Contact Me
 ---
 
-## Contact Us
+## Contact Me
+
+Email me at:
+
+   `isaac.reid.guest@gmail.com`
+   
+or use the form below:
 
 <div>
   <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked form-light">

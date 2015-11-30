@@ -7,7 +7,7 @@ title: Contact Me
 
 Email me at:
 
-   `isaac.reid.guest@gmail.com`
+`isaac.reid.guest@gmail.com` or `isaac@ir-g.uk`
    
 or use the form below:
 

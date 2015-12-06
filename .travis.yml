@@ -12,6 +12,10 @@ before_install:
 script:
 - jekyll build --safe
 - tree _site
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: scripts/deploy.sh
 notifications:
   email:
     on_success: change # default: change

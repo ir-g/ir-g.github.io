@@ -5,6 +5,8 @@ rvm:
 before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown
+- travis_retry sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) main universe restricted multiverse"
+- travis_retry sudo apt-get update
 - travis_retry sudo apt-get install tree -y
 script:
 - jekyll build --safe

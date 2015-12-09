@@ -12,7 +12,7 @@ I have made a number of software projects, mostly on <a href="https://github.com
 
 I also have some interest in UK and International politics, and the wider affect it can and does have. I have also placed a  <a href="http://j.mp/nationalised-rail">Petition for Nationalised Rail</a> on the the UK Parliament Petitions website.
 
-I occasionally use [Tumblr](http://tumblr.ir-g.uk) .
+I occasionally use [Tumblr](http://ir-g.tumblr.com) .
 
 If you want to say thanks, why not [pay me here](https://paypal.me/irg)? Any gift appreciated.
 If you prefer to <a href="https://flattr.com/submit/auto?user_id=isaacrg&url=http%3A%2F%2Fir-g.uk" target="_blank"><img src="https://button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>, you can.

@@ -12,6 +12,7 @@ github:
 
 # Google analytics
 google_analytics: UA-38333068-1
+pjax: true
 
 # Custom blog path
 permalink: "/:year-:month-:date/:title"

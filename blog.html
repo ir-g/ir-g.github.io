@@ -5,7 +5,7 @@ title: Blog
 
   <h2>Blog</h2>
   
-  <div class="posts">
+  <div class="posts" style="align: left;">
     
   {% for post in site.posts %}{% capture day %}{{ post.date | date: '%d%m%Y' }}{% endcapture %}{% capture nday %}{{ post.next.date | date: '%d%m%Y' }}{% endcapture %}
     {% if day != nday %}

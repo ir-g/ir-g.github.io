@@ -9,10 +9,8 @@ before_install:
 script:
 - jekyll build --safe
 - "find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
-deploy:
-  skip_cleanup: true
-  provider: script
-  script: scripts/deploy.sh
+after_script:
+- netlify deploy -s ir-g-uk -p _site -t $NETLIFY_TOKEN
 notifications:
   email:
     on_success: change # default: change

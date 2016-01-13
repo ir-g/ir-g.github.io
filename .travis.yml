@@ -5,6 +5,7 @@ rvm:
 before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown
+- "find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 script:
 - jekyll build --safe
 - tree _site

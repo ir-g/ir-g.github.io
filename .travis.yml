@@ -8,7 +8,7 @@ before_install:
 - npm install -g netlify
 script:
 - jekyll build --safe
-- "find ./ -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+- "find ./_site -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 after_script:
 - netlify deploy -s ir-g-uk -p _site -t $NETLIFY_TOKEN
 notifications:

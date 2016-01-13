@@ -5,11 +5,9 @@ rvm:
 before_install:
 - travis_retry gem install jekyll
 - travis_retry gem install kramdown
-- npm install netlify
 script:
 - jekyll build --safe
 - "find ./_site -type d -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
-- node ./node_modules/netlify/bin/cli.js deploy -s ir-g-uk -p _site -t $NETLIFY_TOKEN
 notifications:
   email:
     on_success: change # default: change

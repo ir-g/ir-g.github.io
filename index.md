@@ -12,6 +12,6 @@ I have made a number of software projects, mostly on <a href="https://github.com
 <!--
 I also have some interest in UK and International politics, and the wider affect it can and does have.
 -->
-I occasionally use [Tumblr](http://ir-g.tumblr.com), including [Brevium](http://brevium-uk.tumblr.com/), a new online publication.
+I occasionally use [Tumblr](http://ir-g.tumblr.com), including [Brevium](http://brevium-uk.tumblr.com/), a publication summing up the news.
 
 If you want to say thanks, why not [pay me here](https://paypal.me/irg)? Any gift appreciated.

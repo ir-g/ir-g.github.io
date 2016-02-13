@@ -5,9 +5,9 @@ title: Contact Me
 
 ## Contact Me
 
-Email me at:
+You can email me at:
 
-`isaac.reid.guest@gmail.com` or `isaac@ir-g.uk`
+`isaac.reid.guest@gmail.com`
    
 or use the form below:
 

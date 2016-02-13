@@ -10,7 +10,7 @@ I <a href="http://twitter.com/{{site.twitter_username}}">tweet</a>, <a href="/bl
 
 I have made a number of software projects - including websites and desktop and mobile applications, often on <a href="https://github.com/isaacrg?tab=repositories">Github</a>.
 
-If you have a project you're interested in me working on, security-testing, user-testing, or just having a look at, just <a href="/contact">Contact Me</a>.
+If you have a project you're interested in me developing, prototyping, testing or just having a look at, just <a href="/contact">Contact Me</a>.
 <!--
 I also have some interest in UK and International politics, and the wider affect it can and does have.
 -->

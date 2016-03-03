@@ -14,9 +14,9 @@ github:
 google_analytics: UA-38333068-1
 
 # Pjax option
-pjax: false
+pjax: true
 
-pathDebug: false
+pathDebug: true
 
 # Custom blog path
 permalink: "/:year-:month-:date/:title"

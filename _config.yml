@@ -14,7 +14,7 @@ github:
 google_analytics: UA-38333068-1
 
 # Pjax option
-pjax: true
+pjax: false
 
 pathDebug: true
 

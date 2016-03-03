@@ -16,6 +16,8 @@ google_analytics: UA-38333068-1
 # Pjax option
 pjax: false
 
+pathDebug: false
+
 # Custom blog path
 permalink: "/:year-:month-:date/:title"
 

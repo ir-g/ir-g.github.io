@@ -1,6 +1,19 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
+    {% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
+    {% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %}
+    {% if site.pathDebug %}
+<!--
+Parent paths[0]:                {{ page.parent_path }}
+Current path:                   {{ page.url }}
+page_url_without_index_html:    {{ page_url_without_index_html }}
+splitted_url_parts:             {{ splitted_url_parts }} first_part: {{ splitted_url_parts[1] }}
+parts:                          {% for part in splitted_url_parts %}{{ part }} - {% endfor %} 
+is_post:                        {{ page.is_post }}
+blogmenu:                       {{ blogmenu }}
+-->{% endif %}
     <meta charset="utf-8">
     <meta name="google-site-verification" content="PXiPl2Xw0BpHG5icEt5_lA_cfCjBrb0KKVM9d6Ftyn0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -59,8 +72,6 @@
   </head>
   <body>
     <div id="all">
-<!-- Parent paths[0]: {{ page.parent_path }} Current path:    {{ page.url }} {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %} {% assign splitted_url_parts = page_url_without_index_html | split: '/' %} page_url_without_index_html: {{ page_url_without_index_html }} splitted_url_parts: {{ splitted_url_parts }} first_part: {{ splitted_url_parts[1] }} parts:  {% for part in splitted_url_parts %}{{ part }} - {% endfor %} is_post: {{ page.is_post }}
-{% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %} blogmenu:                       {{ blogmenu }}-->
       <div id="header">
         <a href="{{ site.url }}/"><h1 class="site-title {% if page.url == "/" %}active{%endif%}">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
         <div class="nav">

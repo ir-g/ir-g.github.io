@@ -4,9 +4,10 @@ title: Code
 <div id="list"></div>
 <script src="/libs/jx.min.js"></script>
 <script>
-jx.load('https://api.github.com/users/isaacrg/repos',function(data){
+  jx.load('https://api.github.com/users/isaacrg/repos',function(data){
     for(i in data){
-	    document.getElementById("list").innerHtml += '<li><a href="'+data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
+    	console.log(data);
+      //document.getElementById("list").innerHtml = document.getElementById("list").innerHtml + '<li><a href="'+data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
     }
-},'json');
+  },'json');
 </script>

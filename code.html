@@ -7,7 +7,7 @@ title: Code
 jx.load('https://api.github.com/users/isaacrg/repos',function(data){
     data = JSON.parse(data);
     for(i in data){
-	    document.getElementById("list").innerHtml += '<li><a href="'data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
+	    document.getElementById("list").innerHtml += '<li><a href="'+data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
     }
-	},'json');
+},'json');
 </script>

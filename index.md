@@ -6,7 +6,7 @@ layout: default
 
 Hi! I'm <span class="non-mobile-hide mobile-display-inline">Isaac Reid-Guest, </span>a developer and designer based in Birmingham, United Kingdom.
 
-I <a href="http://twitter.com/{{site.twitter_username}}">tweet</a>, <a href="/blog/">blog</a> and <a href="http://github.com/isaacrg">code</a>.
+I <a href="http://twitter.com/{{site.twitter_username}}">tweet</a>, <a href="/blog/">blog</a> and <a href="/code/">code</a>.
 
 I have made a number of software projects - including websites and desktop and mobile applications, often on <a href="https://github.com/isaacrg?tab=repositories">Github</a>.
 

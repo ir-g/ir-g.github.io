@@ -6,8 +6,8 @@ title: Code
 <script>
   jx.load('https://api.github.com/users/isaacrg/repos',function(data){
     for(i in data){
-    	console.log(data);
-      document.getElementById("list").innerHTML = document.getElementById("list").innerHtml + '<li><a href="'+data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
+    	console.log(data[i]);
+      document.getElementById("list").innerHTML += '<li><a href="'+data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
     }
   },'json');
 </script>

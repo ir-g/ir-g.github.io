@@ -2,7 +2,7 @@
 title: Code
 ---
 <h2>Code</h2>
-I host some of my code on [Github](https://github.com/isaacrg) and [Bitbucket](https://bitbucket.org/isaacrg). Some of Guthub repositories are listed below.
+I host some of my code on [Github](https://github.com/isaacrg) and [Bitbucket](https://bitbucket.org/isaacrg). Some of Github repositories are listed below.
 
 <div id="list"><i>Loading</i></div>
 <script src="/libs/jx.min.js"></script>

@@ -1,6 +1,7 @@
 ---
 title: Code
 ---
+<h2>Code</h2>
 <div id="list"><i>Loading</i></div>
 <script src="/libs/jx.min.js"></script>
 <script>

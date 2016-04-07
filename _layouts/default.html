@@ -55,7 +55,11 @@ blogmenu:                       {{ blogmenu }}
     {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="{{ site.title }}">{% endif %}
     {% if page.url %}<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">{% endif %}
     {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
-    
+    <!-- Inline styling -->
+    <style>
+{% capture include_data %}{% include style.scss %}{% endcapture %}{{ include_data | scssify }}
+    </style>
+    <!-- Editor trigger (press "e" five times) -->
     <script>
       var edCount = 0;
       window.onkeydown=function(e){
@@ -64,7 +68,7 @@ blogmenu:                       {{ blogmenu }}
           console.log("e key pressed " + edCount + "times is succession");
           if(edCount==5) window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
         }else{
-          edCount = 0
+          edCount = 0;
         }
       }
     </script>

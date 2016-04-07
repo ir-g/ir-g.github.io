@@ -1,2 +1,4 @@
+---
+---
 {% capture include_data %}{% include style.scss | scssify %}{% endcapture %}{{ include_data | scssify }}
 

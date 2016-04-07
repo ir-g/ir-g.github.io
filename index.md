@@ -17,4 +17,4 @@ I also have some interest in UK and International politics, and the wider affect
 
 I occasionally use [Tumblr](http://ir-g.tumblr.com), including for writing [Brevium](http://brevium-uk.tumblr.com/), a publication summing up the news.
 
-If you want to pay me for a project I have worked on, or so I can make more, you can <a href="https://flattr.com/submit/auto?fid=vo6rze&url=http%3A%2F%2Fir-g.uk" target="_blank"><img src="//button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" style="height: 0.6em; vertical-align: bottom;" border="0"></a> or [pay me via PayPal](https://paypal.me/irg)? Any amount is appreciated.
+If you want to pay me for a project I have worked on, or so I can make more, you can <a href="https://flattr.com/submit/auto?fid=vo6rze&url=http%3A%2F%2Fir-g.uk" target="_blank"><img src="https://button.flattr.com/flattr-badge-large.png" alt="Flattr this" title="Flattr this" style="vertical-align: bottom;" border="0"></a> or [pay me via PayPal](https://paypal.me/irg)? Any amount is appreciated.

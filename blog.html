@@ -6,13 +6,15 @@ title: Blog
   <h2>Blog</h2>
   
   <div class="posts">
+    <a href="https://ir-g.uk/feed.xml">RSS Feed</a> &bull; <a href="https://feedburner.google.com/fb/a/mailverify?uri=ir-g&loc=en_US">Subscribe via Email</a> &bull; <a href="http://feeds.feedburner.com/ir-g">Subsribe on Feedburner</a>
+    <hr>
     
   {% for post in site.posts %}{% capture day %}{{ post.date | date: '%d%m%Y' }}{% endcapture %}{% capture nday %}{{ post.next.date | date: '%d%m%Y' }}{% endcapture %}
     {% if day != nday %}
     <p class="date font-monospace"><a class="font-gray" name="{{ post.date | date: "%Y-%m-%d" }}" href="#{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</a></p>
     {% endif %}
-      <p>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        {% if post.description %}<br> <span class="font-small">{{ post.description }}</span>{% endif %}
-      </p>{% endfor %}
+    <p>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.description %}<br> <span class="font-small">{{ post.description }}</span>{% endif %}
+    </p>{% endfor %}
   </div>

@@ -9,7 +9,7 @@ You can email me at:
 
 `isaac.reid.guest@gmail.com`
 
-or use the form below:
+*or use the form below:*
 
 <div>
 <form action="https://formspree.io/isaac.reid.guest@gmail.com" method="POST" class="form-stacked form-light">

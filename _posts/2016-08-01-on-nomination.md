@@ -1,6 +1,6 @@
 ---
 title: On Nomination
-description: Discussing 
+description: Challenging in the leader and recognising confidence.
 tags: 
   - Labour Party
   - UK Politics

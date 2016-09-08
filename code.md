@@ -4,6 +4,17 @@ title: Code
 <h2>Code</h2>
 I host some of my code on [Github](https://github.com/isaacrg) and [Bitbucket](https://bitbucket.org/isaacrg). Some of my Github repositories are listed below.
 
+<div style="width: 100%; ">
+  <h3>Project Name</h3>
+  This is a description
+  <ul>
+    <li>
+      <a href="">Link here</a>
+    </li>
+  </ul>
+</div>
+
+<!--
 <div id="list"><i>Loading</i></div>
 <script src="/libs/jx.min.js"></script>
 <script>
@@ -16,4 +27,4 @@ I host some of my code on [Github](https://github.com/isaacrg) and [Bitbucket](h
       document.getElementById("list").innerHTML = document.getElementById("list").innerHTML + '<li><a href="'+data[i].html_url+'?via=ir-g.uk">'+data[i].name+'</a> - '+data[i].description+'';
     }
   },'json');
-</script>
+</script>-->

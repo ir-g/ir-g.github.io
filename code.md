@@ -1,17 +1,54 @@
 ---
 title: Code
 ---
+<style>
+.project{
+  width: 100%;
+  border-bottom: black solid;
+}
+.project > p{
+  clear: both;
+}
+</style>
 <h2>Code</h2>
-I host some of my code on [Github](https://github.com/isaacrg) and [Bitbucket](https://bitbucket.org/isaacrg). Some of my Github repositories are listed below.
+I host some of my code on [Github](https://github.com/isaacrg) and [Bitbucket](https://bitbucket.org/isaacrg). Some of my recent projects.
 
-<div style="width: 100%; ">
+
+
+<div class="project">
+  <h3>Junk Smasher</h3>
+  <p>
+    Cosmic Junk Collector is a web application, which uses open data from <a href="https://github.com/alexras/orbital_objects">Orbital Objects</a> to find the location of 'space junk'.Developed by Isaac Reid-Guest, Tim Stallard and Matt Randell for YRS Festival of Code 2014.
+    <ul>
+      <li>
+        [Github](https://github.com/terminal-velocity/junk-smasher)
+      </li>
+    </ul>
+  </p>
+</div>
+
+<div class="project">
+  <h3>Ostium News</h3>
+  <p>
+    Ostium news is a service primarily aimed at blind people or people find the internet hard to use, but can be utilised by anyone. It reads data from an RSS feed, and uses text-to-speech software to read that data aloud over the phone. Developed by Isaac Reid-Guest and Matt Randell for YRS Festival of Code 2014.
+    <ul>
+      <li>
+        [Github](https://github.com/TeamBugCat/yrs2014)
+      </li>
+    </ul>
+  </p>
+</div>
+
+<div class="project">
   <h3>Project Name</h3>
-  This is a description
-  <ul>
-    <li>
-      <a href="">Link here</a>
-    </li>
-  </ul>
+  <p>
+    This is a description
+    <ul>
+      <li>
+        [Link here]()
+      </li>
+    </ul>
+  </p>
 </div>
 
 <!--

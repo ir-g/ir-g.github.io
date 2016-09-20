@@ -28,7 +28,7 @@ I host some of my code on <a href="https://github.com/isaacrg">Github</a> and <a
 <div class="project">
   <h3>Junk Smasher</h3>
   <p>
-    Cosmic Junk Collector is a web application, which uses open data from <a href="https://github.com/alexras/orbital_objects">Orbital Objects</a> to find the location of 'space junk'.Developed by Isaac Reid-Guest, Tim Stallard and Matt Randell for YRS Festival of Code 2015.
+    Cosmic Junk Collector is a web application, which uses open data from <a href="https://github.com/alexras/orbital_objects">Orbital Objects</a> to find the location of 'space junk'. Developed by Isaac Reid-Guest, Tim Stallard and Matt Randell for YRS Festival of Code 2015.
     
     <ul>
       <li><a href="https://github.com/terminal-velocity/junk-smasher">Github</a></li>

@@ -20,9 +20,10 @@ I host some of my code on <a href="https://github.com/ir-g">Github</a> and <a hr
     VB-UI is a project that allows for native UIs delivered in a lightweight format over HTTP, allowing for faster, accessible applications. Developed by Isaac Reid-Guest.
     
     <ul>
-      <li><a href="https://github.com/isaacrg/vb-ui">Github</a></li>
+      <li><a href="https://github.com/ir-g/vb-ui">Github</a></li>
     </ul>
   </p>
+  
 </div>
 
 <div class="project">

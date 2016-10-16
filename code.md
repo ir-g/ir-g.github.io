@@ -12,7 +12,7 @@ title: Code
 </style>
 <h2>Code</h2>
 
-I host some of my code on <a href="https://github.com/isaacrg">Github</a> and <a href="https://bitbucket.org/ir-g">Bitbucket</a>. Some of my recent projects are listed below.
+I host some of my code on <a href="https://github.com/ir-g">Github</a> and <a href="https://bitbucket.org/ir-g">Bitbucket</a>. Some of my recent projects are listed below.
 
 <div class="project">
   <h3>VB-UI</h3>

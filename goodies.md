@@ -6,7 +6,7 @@ title: Goodies
 
 <a name="gsuite">G Suite (formerly Google apps)</a>
 
-<a href="https://goo.gl/3Z56il"><img src="https://connect.googleforwork.com/servlet/JiveServlet/showImage/102-18493-5-85805/Sonic_DarwIT_GSuite_ENG+%281%29.png"/ alt="Start your G Suite free trial here" title="Start your G Suite free trial here"></a>
+[![](https://connect.googleforwork.com/servlet/JiveServlet/showImage/102-18493-5-85805/Sonic_DarwIT_GSuite_ENG+%281%29.png)](https://goo.gl/3Z56il "Start your G Suite free trial here ")
 
 *G Suite contains Document, Email and calendar systems from Google, at a great price.*
 

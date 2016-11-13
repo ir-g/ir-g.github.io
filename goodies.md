@@ -4,6 +4,12 @@ title: Goodies
 
 *The following content contains links providing financial or otherwise incentives for myself.*
 
+<a name="gsuite">G Suite (formerly Google apps)</a>
+
+<a href="https://goo.gl/3Z56il"><img src="https://connect.googleforwork.com/servlet/JiveServlet/showImage/102-18493-5-85805/Sonic_DarwIT_GSuite_ENG+%281%29.png"/ alt="Start your G Suite free trial here" title="Start your G Suite free trial here"></a>
+
+*G Suite contains Document, Email and calendar systems from Google, at a great price.*
+
 <a name="namecheap"></a>
 
 ## Namecheap
@@ -21,12 +27,6 @@ title: Goodies
 ## Trello
 
 [Click here](https://trello.com/isaacrg/recommend) to sign up for Trello, the best task organisation app going.
-
-<a name="creativemarket"></a>
-
-## Creative Market
-
-[Click here](https://creativemarket.com?u=isaacrg) to visit Creative Market, the best place on the web for buying and selling digital assets including website themes, 3d models, and PSD designs.
 
 <a name="greenmangaming"></a>
 

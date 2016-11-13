@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "https://ir-g.uk"
 
 github:
-  repo: isaacrg/isaacrg.github.io
+  repo: ir-g/ir-g.github.io
   branch: master
 
 # Google analytics

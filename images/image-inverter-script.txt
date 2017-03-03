@@ -1,0 +1,5 @@
+THE BELOW CODE PERFORMS A FULL CONVERSION OF THE ORIGINAL FILE, SO KEEP BACKUPS.
+USES IMAGEMAGICK
+
+for f in *; do convert $f -negate $f; convert $f -background black -alpha Background $f;  convert $f -alpha off $f; done;
+

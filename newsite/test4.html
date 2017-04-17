@@ -74,6 +74,14 @@ a {
   a       { color: white; }
   a:hover { color: white; }
 }
+.nav-item{
+    padding: 5px;color:white;font-weight:bold;
+}
+.nav-item-home{}
+.nav-item-work{}
+.nav-item-blog{}
+.nav-item-contact{}
+
 .font-monospace{ font-family: monospace; }
 .font-std      { font-family: $font; }
 .font-medium   { font-size: medium; }
@@ -187,14 +195,10 @@ div, iframe, img{
 <body>
 <div id="all">
 <div id="header">
-<a href="https://ir-g.uk/"><h1 class="site-title" style="">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
+<a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
 <div class="nav">
-<a  class="active" href="https://ir-g.uk/" style="
-    background-color: #fe4902;
-    padding: 5px;color:white;font-weight:bold;
-">Home</a>
-<a class="" href="#contact" style="background-color: #2196F3;
-    padding: 5px;color:white;font-weight:bold;">Contact</a>
+<a class="nav-item active" href="https://ir-g.uk/" style="background-color: #fe4902;">Home</a>
+<a class="nav-item" href="#contact" style="background-color: #2196F3;">Contact</a>
 </div>
 </div>
 <div id="content">

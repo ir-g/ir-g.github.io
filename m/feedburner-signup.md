@@ -11,4 +11,4 @@ title: Signup for blog updates
     color: white;
     border: none;
     padding: 5px;
-    font-style: italic;" name="email"/></p><input type="hidden" value="ir-g" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></p></form>
+    font-style: italic;" name="email"/></p><input type="hidden" value="ir-g" name="uri"/><input type="hidden" name="loc" value="en_US"/><input type="submit" value="Subscribe" /><p><small>Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a></small<</p></form>

@@ -41,6 +41,12 @@ You can email me at:
     padding: 5px;
     font-style: italic;" rows="5" placeholder="What would you like to say?"></textarea>
     <br>
-    <input type="submit" style="width: 100%; resize: none; border: none; padding: 0;" value="Send Message">
+    <input type="submit" style="font-family: helvetica;
+    background: darkgray;
+    resize: none;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-style: italic;" value="Send Message">
   </form>
 </div>

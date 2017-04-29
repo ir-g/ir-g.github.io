@@ -4,7 +4,7 @@ title: Code
 <style>
 .project{
   width: 100%;
-  border-bottom: black solid;
+  border-bottom: white solid;
 }
 .project > p{
   clear: both;

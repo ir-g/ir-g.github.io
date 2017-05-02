@@ -1,9 +1,11 @@
 ---
 layout: default
 noindex: true
+title: MSQD Forum
 ---
 
-## Forum!
+## Moonsquads forum
+
 <center>
 <a href="http://forum.moonsquads.com" style="
     background-color:rgb(33, 150, 243);

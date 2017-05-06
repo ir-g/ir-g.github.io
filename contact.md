@@ -3,13 +3,6 @@ layout: default
 title: Contact Me
 ---
 
-<p style="
-    border: rgba(138, 58, 50, 0.24) solid;
-    background-color: rgba(138, 50, 50, 0.24);
-    text-align: center;
-    border-radius: 20px;
-    ">I make websites, software and security test systems. No job too small. Contact me below!</p>
-
 ## Contact Me
 
 You can email me at:

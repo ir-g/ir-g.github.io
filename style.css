@@ -1,4 +1,5 @@
 ---
+layout: none
 ---
 {% capture include_data %}{% include style.scss %}{% endcapture %}{{ include_data | scssify }}
 

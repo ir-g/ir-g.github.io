@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 
-<h2 style="color: inherit; text-decoration: inherit; background-color: #fe4902; color:white; padding: 5px;">Home</h2>
+<h2><a style="color: inherit; text-decoration: inherit; background-color: #fe4902; color:white; padding: 5px;">Home</a></h2>
 
 Hi! I'm <span class="non-mobile-hide mobile-display-inline">Isaac Reid-Guest, </span>a developer and designer based in Birmingham, United Kingdom.
 

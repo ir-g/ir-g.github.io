@@ -16,6 +16,6 @@ If you have a project you're interested in me developing, prototyping, testing o
 
 
 
-I currently am a writer and editor for [Evolving Tide](https://medium.com/evolving-tide).
+I currently am a writer and editor for [Evolving Tide](https://medium.com/evolving-tide), I also post the odd thing on my [Tumblr](http://tumblr.ir-g.uk/).
 
 If you want to pay me for a project I have worked on, or so I can make more, you can [Flattr me](https://flattr.com/submit/auto?fid=vo6rze&url=http%3A%2F%2Fir-g.uk) or [pay me via PayPal](https://paypal.me/irg)? Any amount is appreciated.

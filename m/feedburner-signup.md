@@ -2,7 +2,9 @@
 title: Signup for blog updates
 ---
 
-## Signup for blog updates
+<h2><a href="#" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Signup for blog updates</a></h2>
+  
+
 
 <form style="padding:3px;text-align:center;" action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=ir-g', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>Enter your email address:</p><p><input type="text" style="
     font-family: helvetica;

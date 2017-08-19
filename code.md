@@ -10,7 +10,8 @@ title: Code
   clear: both;
 }
 </style>
-<h2>Code</h2>
+
+<h2><a name="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #fe4902; color:white; padding: 5px;">Code</a></h2>
 
 I host some of my code on <a href="https://github.com/ir-g">Github</a> and <a href="https://bitbucket.org/ir-g">Bitbucket</a>. Some of my recent projects are listed below.
 

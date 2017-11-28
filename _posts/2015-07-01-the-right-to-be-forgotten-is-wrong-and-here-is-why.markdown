@@ -9,7 +9,7 @@ Since the European Union’s “right to be forgotten” law was introduced, the
 
 In many cases, these requested removals did not happen, due to rejection from the search engine to whom they requested that the link be removed. All search engines dealing with these responses have their own teams managing this.
 
-This particular law is a source of irritation for many, and very rightly so. Search results are able to be doctored, such that important news stories and other web pages pertaining to a particular person, are rendered inaccessbile through common means. This is something that has agitated many broadcasters, publications and other websites besides.
+This particular law is a source of irritation for many, and very rightly so. Search results are able to be doctored, such that important news stories and other web pages pertaining to a particular person, are rendered inaccessible through common means. This is something that has agitated many broadcasters, publications and other websites besides.
 
 In fact, the BBC has in fact gone to the measure of recording the number of articles censored under the “Right to be forgotten” ruling. Every censored article is listed on an article on the BBC Internet blog, titled “List of BBC web pages which have been removed from Google’s search results”.
 

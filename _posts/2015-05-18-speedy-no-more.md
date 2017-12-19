@@ -66,5 +66,5 @@ Or you could even go for [Opera 12][op12]. Opera 12 was very, very fast, had tab
 [fewer-tabs]: http://lifehacker.com/5984149/why-you-should-never-have-more-than-nine-browser-tabs-open
 [fewer-tabs-tweet]: https://twitter.com/kumailn/status/527256166317830144
 [wait]: https://dev.opera.com/blog/reducing-memory-use/
-[op12]: http://www.opera.com/download/guide/?ver=12.16
+[op12]: http://www.opera.com/download/index.dml/?os=windows&ver=12.11&local=y
 [op12-heartbleed]: https://en.wikipedia.org/wiki/History_of_the_Opera_web_browser#Version_12

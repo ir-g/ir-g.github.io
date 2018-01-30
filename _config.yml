@@ -59,7 +59,7 @@ defaults:
     values:
       layout: "post"
       is_post: true
-      permalink: "/:month-:day-:year/:title.html"
+      #permalink: "/:year-:month-:day/:title"
 
 
 # As according to https://help.github.com/articles/sitemaps-for-github-pages/

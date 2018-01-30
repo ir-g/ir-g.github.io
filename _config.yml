@@ -19,7 +19,8 @@ pjax: false
 pathDebug: true
 
 # Custom blog path
-permalink: "/:year-:month-:date/:title"
+#permalink: "/:year-:month-:date/:title"
+permalink: "/:month-:day-:year/:title.html"
 
 # Social icons
 github_username: isaacrg

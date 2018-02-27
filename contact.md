@@ -19,7 +19,7 @@ You can email me at:
     font-family: helvetica;
     background: darkgray;
     resize: none;
-    color: white;
+    color: black;
     border: none;
     padding: 5px;
     font-style: italic;" placeholder="Your Email Address">
@@ -29,7 +29,7 @@ You can email me at:
     font-family: helvetica;
     background: darkgray;
     resize: none;
-    color: white;
+    color: black;
     border: none;
     padding: 5px;
     font-style: italic;" rows="5" placeholder="What would you like to say?"></textarea>
@@ -37,7 +37,7 @@ You can email me at:
     <input type="submit" style="font-family: helvetica;
     background: darkgray;
     resize: none;
-    color: white;
+    color: black;
     border: none;
     padding: 5px;
     font-style: italic;" value="Send Message">

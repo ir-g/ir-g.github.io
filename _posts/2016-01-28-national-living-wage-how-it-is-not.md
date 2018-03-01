@@ -1,5 +1,6 @@
 ---
 title: "The 'National Living Wage', and how it isn’t"
+subtitle: "Not doing what it says on the tin"
 ---
 
 Some time ago, the government announced their plans for a minimum wage rate for those who are 25 or over*, which they dubbed the “National Living Wage” - it is significantly higher than the present minimum wage, and was named in a manner that inaccurately associated it with the widely supported living wage campaign. The Living wage campaign released a response to this change**, in which they supported the raising of the minimum wage, while noting that this was not a Living wage for people, saying that the way this proposal was calculated - through “What the market can bear”, rather than the cost of living was no way of producing a reasonable “living wage”. It further criticised the government for also making this for people only 25 and over, ignoring the 2 million people, who are under 25.

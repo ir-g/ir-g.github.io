@@ -11,6 +11,7 @@ github:
   branch: master
 
 # Google analytics
+ga_enabled: false
 google_analytics: UA-38333068-1
 
 # Pjax option

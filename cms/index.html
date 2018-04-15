@@ -33,6 +33,9 @@ layout: null
 			<input type="text" class="form-control" placeholder="Post Title" id="p_title" name="title">
 		</div>
 		<div class="form-group">
+			<input type="text" class="form-control" placeholder="One-line post description" id="p_description" name="title">
+		</div>
+		<div class="form-group">
 			<textarea class="form-control" rows="10" id="p_body" placeholder="Type your post here." name="body"></textarea>
 		</div>
 		<div class="form-inline">
@@ -68,7 +71,7 @@ layout: null
 		selection = document.selection.createRange().text;
 	}
 	selection = encodeURIComponent(selection);
-	new_window=window.open('{{ "/cms.html" | prepend: site.baseurl | prepend: site.url }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
+	new_window=window.open('{{ "/cms/" | prepend: site.baseurl | prepend: site.url }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
 	})();"
 	>post to GitHub</a></p>
 	</div>
@@ -117,9 +120,11 @@ layout: null
 		var user = $('#username').val() ;
 		var password = $('#password').val() ;
 		var title = $('#p_title').val() ;
+		var description = $('#p_description').val() ;
 		var p_body = '---\n' ;
 		p_body = p_body + 'layout: post \n' ;
 		p_body = p_body + 'title:  "' + title +'" \n';
+		p_body = p_body + 'description:  "' + description +'" \n';
 		p_body = p_body + 'date:   '+ post_date() +' \n' ;
 		/* Setting the category here is not the most elegant way...
 		p_body = p_body + 'categories: tests \n';
@@ -130,7 +135,7 @@ layout: null
 		$.ajax({
 			dataType: "json",
 			contentType: 'application/json; charset=UTF-8',
-			url: API_NEW_POST+post_file(title)+'.markdown',
+			url: API_NEW_POST+post_file(title)+'.md',
 			type: "PUT",
 			data: JSON.stringify({
 				content: btoa(unescape(encodeURIComponent(p_body))),

@@ -18,7 +18,7 @@ I host some of my code on <a href="https://github.com/ir-g">Github</a> and <a hr
 <div class="project">
   <h3>eCrackers</h3>
   <p>
-    eCrackers is a project made at Hack the Holidays 2, as virtual accelerometer-triggered Christmas Crackers, using NodeJS with the Socket.io library . Developed by Tim Stallard, Freddie Brown and Isaac Reid-Guest.
+    eCrackers is a project as a web-based service with accelerometer-triggered virtual "Christmas Crackers", using NodeJS with the Socket.io library. Developed by Tim Stallard, Freddie Brown and Isaac Reid-Guest as part for Hack the Holidays 2.
     
     <ul>
       <li><a href="https://github.com/terminal-velocity/eCrackers">Github</a></li>

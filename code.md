@@ -16,6 +16,17 @@ title: Code
 I host some of my code on <a href="https://github.com/ir-g">Github</a> and <a href="https://bitbucket.org/ir-g">Bitbucket</a>. Some of my recent projects are listed below.
 
 <div class="project">
+  <h3>eCrackers</h3>
+  <p>
+    eCrackers is a project made at Hack the Holidays 2, as virtual accelerometer-triggered Christmas Crackers, using NodeJS with the Socket.io library . Developed by Tim Stallard, Freddie Brown and Isaac Reid-Guest.
+    
+    <ul>
+      <li><a href="https://github.com/terminal-velocity/eCrackers">Github</a></li>
+    </ul>
+  </p>
+</div>
+
+<div class="project">
   <h3>VB-UI</h3>
   <p>
     VB-UI is a project that allows for native UIs delivered in a lightweight format over HTTP, allowing for faster, accessible applications. Developed by Isaac Reid-Guest.
@@ -24,7 +35,6 @@ I host some of my code on <a href="https://github.com/ir-g">Github</a> and <a hr
       <li><a href="https://github.com/ir-g/vb-ui">Github</a></li>
     </ul>
   </p>
-  
 </div>
 
 <div class="project">

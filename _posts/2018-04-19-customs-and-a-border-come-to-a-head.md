@@ -1,7 +1,7 @@
 ---
 layout: post 
-title:  "Customs and a Border come to a head" 
-description:  "" 
+title:  "Customs and the Border come to a head" 
+description:  "A can can't be kicked down the road forever." 
 date:   2018-04-19T22:23:06.572Z 
 ---
 

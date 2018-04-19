@@ -1,7 +1,7 @@
 ---
 layout: post 
 title:  "The Windrush Generation should be treated with care and decency" 
-description: "Doing otherwise is cruel and foolish"
+description: "Doing otherwise is cruel and foolish."
 date:   2018-04-15T20:23:55.688Z 
 ---
 

@@ -2,7 +2,6 @@
 layout: post 
 title:  "A change in tone" 
 description:  "Customs Union being approached as a given, negotiations approached one-way" 
-date:   2018-04-27T23:34:11.471Z 
 ---
 
 Over the last few days, the broad tone from many politicans and the wider media seem to suggest that the Customs Union is maybe more of an inevitability than previously considered, with the government's reluctance to hold a vote in the commons, and the speeches made in parliament particularly suggesting that. Particularly of note is a five-minute speech by Dominic Grieve([Hansard](https://hansard.parliament.uk/Commons/2018-04-26/debates/090B0080-E56F-40F3-867A-41D46C14C7AF/CustomsAndBorders#contribution-F5697616-1063-45AF-87FB-1A733D083CE5) &bull; [parliamentlive.tv](https://parliamentlive.tv/event/index/b56ca4ad-dc3a-4f36-addc-91a4891f6680?in=15:43:34&out=15:48:49)), in which he highlights the basic neccessity of well-organised Customs arrangements and regulartory alignment, due to the necessity of trading with our neighbours. Furthermore, other members have indicated both in and outside the realms of Hansard that variously the Customs Union and Single Market are appropriate measures to be in, beyond the EU, as they help substantially protect the economy.

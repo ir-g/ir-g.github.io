@@ -13,10 +13,4 @@ I have made a number of software projects - including websites and desktop and m
 
 If you have a project you're interested in me developing, prototyping, testing or just having a look at, just <a href="/contact/">Contact Me</a>.
 
-
-
-<!--
-I currently am a writer and editor for [Evolving Tide](https://medium.com/evolving-tide), I also post the odd thing on my [Tumblr](http://tumblr.ir-g.uk/).
--->
-
 If you want to pay me for a project I have worked on, or so I can make more, you can [pay me via PayPal](https://paypal.me/irg)? Any amount is appreciated.

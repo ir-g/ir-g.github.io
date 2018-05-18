@@ -2,7 +2,6 @@
 layout: post
 title: 'Playing with everything, fixing nothing'
 description: A meddling government fiddles away.
-date: {}
 published: true
 ---
 

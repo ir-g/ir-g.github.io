@@ -1,11 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
-{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}
-{% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %}
-{%if page.noindex %}<meta name="robots" content="noindex">{% endif %}{% if site.pathDebug %}
-<!--
+<!-- {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}{% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %}{%if page.noindex %}<meta name="robots" content="noindex">{% endif %}{% if site.pathDebug %}
 Parent paths[0]:                {{ page.parent_path }}
 Current path:                   {{ page.url }}
 page_url_without_index_html:    {{ page_url_without_index_html }}
@@ -14,20 +10,19 @@ parts:                          {% for part in splitted_url_parts %}{{ part }} -
 is_post:                        {{ page.is_post }}
 blogmenu:                       {{ blogmenu }}
 -->{% endif %}
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="An occasional web outpost of Isaac Reid-Guest.">
 <meta name="author" content="Isaac Reid-Guest">
 <link rel="canonical" href="https://ir-g.uk/">    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="author" content="{{ site.author }}">
-    {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <meta name="theme-color" content="black">
- 
+<meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
+<meta name="author" content="{{ site.author }}">
+{% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="theme-color" content="black">
+<!-- Icons -->
 <link rel="apple-touch-icon" sizes="57x57" href="/images/original/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/images/original/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/images/original/apple-icon-72x72.png">
@@ -42,60 +37,59 @@ blogmenu:                       {{ blogmenu }}
 <link rel="icon" type="image/png" sizes="96x96" href="/images/original/favicon-96x96.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/images/original/favicon-16x16.png">
 
-    <!-- Open Graph --><!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
-    <meta property="og:locale" content="en_GB">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@isaacreidguest">
-    <meta name="twitter:creator" content="@isaacreidguest">
-    {% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="{{ site.title }}">{% endif %}
-    {% if page.url %}<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">{% endif %}
-    {% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
-    <!-- Inline styling -->
+<!-- Open Graph --><!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
+<meta property="og:locale" content="en_GB">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:site_name" content="{{ site.title }}">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@isaacreidguest">
+<meta name="twitter:creator" content="@isaacreidguest">
+{% if page.title %}<meta name="twitter:title" content="{{ page.title }}">{% else %}<meta name="twitter:title" content="{{ site.title }}">{% endif %}
+{% if page.url %}<meta name="twitter:url" content="{{ site.url }}{{ page.url }}">{% endif %}
+{% if page.description %}<meta name="twitter:description" content="{{ page.description }}">{% else %}<meta name="twitter:description" content="{{ site.description }}">{% endif %}
+<!-- Inline styling -->
 <style>
 {% include style.css %}
 </style>
-    <!-- Editor trigger (press "e" five times) -->
-    <script>
-      var edCount = 0;
-      window.onkeydown=function(e){
-      if(e.keyCode==69){ //On keypress (e)
-          edCount += 1;
-          console.log("e key pressed " + edCount + "times is succession");
-          if(edCount==5) window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
-        }else{
-          edCount = 0;
-        }
-      }
-    </script>
+<!-- Editor trigger (press "e" five times) -->
+<script>
+var edCount = 0;
+window.onkeydown=function(e){
+if(e.keyCode==69){ //On keypress (e)
+    edCount += 1;
+    console.log("e key pressed " + edCount + "times is succession");
+    if(edCount==5) window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
+  }else{
+    edCount = 0;
+  }
+}
+</script>
 </head>
 <body>
 <div id="all">
 <div id="header">
 <a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
-        <div class="nav">
-          <a class="nav-item" style="background-color: #fe4902;" href="/">Home</a>
-          <a class="nav-item" style="background-color: #4caf50;" href="/blog/">Blog</a> 
-          <a class="nav-item" style="background-color: #2196F3;" href="/contact/">Contact</a>
-    </div>
+  <div class="nav">
+    <a class="nav-item" style="background-color: #fe4902;" href="/">Home</a>
+    <a class="nav-item" style="background-color: #4caf50;" href="/blog/">Blog</a> 
+    <a class="nav-item" style="background-color: #2196F3;" href="/contact/">Contact</a>
+  </div>
 </div>
 <div id="content">
 {{ content }}
 </div>
 </div>
-    {% if site.ga_enabled %}<script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-      ga('create', 'UA-38333068-1', 'auto');
-      ga('send', 'pageview');
-    </script>{% endif %}
+{% if site.ga_enabled %}<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-38333068-1', 'auto');
+ga('send', 'pageview');
+</script>{% endif %}
 </body>
 </html>

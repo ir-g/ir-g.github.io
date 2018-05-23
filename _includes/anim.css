@@ -1,0 +1,14 @@
+  /*   animation: titleAnim 1s normal forwards;
+  /*animation-iteration-count: 2;*/
+  /*
+@keyframes titleAnim {
+    /* aim color: fe4902 *//*
+    0%   {text-shadow: 1px -1px #f44336, 2px -2px #E91E63, 3px -3px #9C27B0, 4px -4px #673AB7, 5px -5px #3F51B5, 6px -6px #007199}
+    20%  {text-shadow: 1px -1px #fe4902, 2px -2px #E91E63, 3px -3px #9C27B0, 4px -4px #673AB7, 5px -5px #3F51B5, 6px -6px #2196F3;}
+    30%  {text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #9C27B0, 4px -4px #673AB7, 5px -5px #3F51B5, 6px -6px #2196F3;}
+    45%  {text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #fe4902, 4px -4px #673AB7, 5px -5px #3F51B5, 6px -6px #2196F3;}
+    60%  {text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #fe4902, 4px -4px #fe4902, 5px -5px #fe4902, 6px -6px #2196F3;}
+    75%  {text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #fe4902, 4px -4px #fe4902, 5px -5px #fe4902, 6px -6px #fe4902;}
+    100% {text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #fe4902, 4px -4px #fe4902, 5px -5px #fe4902, 6px -6px #fe4902;}
+}
+*/

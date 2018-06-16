@@ -58,10 +58,14 @@ blogmenu:                       {{ blogmenu }}
 <script>
 var edCount = 0;
 window.onkeydown=function(e){ //On keypress (e)
-  if(e.keyCode==69){ edCount += 1;
-  console.log("e key pressed " + edCount + "times is succession");
-  if(edCount==5){ window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}"
-  }else{  edCount = 0;  }
+  if(e.keyCode==69){
+    edCount += 1;
+    console.log("e key pressed " + edCount + "times is succession");
+    if(edCount==5){
+      window.location.href="/gh-edit/?repo={{site.github.repo}}&branch={{site.github.branch}}&path={{page.path}}";
+    }else{
+      edCount = 0;
+    }
 }
 </script>
 </head>

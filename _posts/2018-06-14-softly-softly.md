@@ -21,3 +21,7 @@ The measures banned by this section of the bill include:
   * any other checks and controls
 
 This describes access to the EU internal(Single) market. When paired with the likely implementation of a Customs Union(due to government failure or inevitable Commons decision) and the definite commitment to measures in Northern Ireland and Great Britain being identical, membership of the Single Market and Customs Union might be a realistic prospect.
+
+#### Update (16/06/2018)
+
+It seems that Customs Union and Single Market membership could well be likely. Business Insider [reports](http://uk.businessinsider.com/the-eu-believes-theresa-may-will-now-accept-a-soft-brexit-2018-6?r=US&IR=T) that European Parliament chief Brexit negotiator Guy Verhofstadt considers this likely. He said this to British MEPs, and will be meeting with Westminster MPs to talk about this option.

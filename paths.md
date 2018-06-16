@@ -3,11 +3,11 @@ title: "Paths"
 ---
 
 <script>
-var urlArray = {};
-var pathArray = {};
-var oldUrlArray = {};
+var urlArray = {};  //Old URL - New URL
+var pathOldUrlArray = {}; //Post Path - Old URL
+var pathNewUrlArray = {}; //Post Path - New URL
 </script>
-    -- Render the post layout for this post.
-{% for post in site.posts %}{% assign urlPieces = post.url|split:'/' %}
-    {{post.path}} - {{post.url}} - {{post.date | date: '/%Y-%m-%d/'}}{{urlPieces[-1]}} - {{post.date | date: '%B %d, %Y'}}
+{% for post in site.posts %}{% assign urlPieces = post.url|split:'/' %}{% capture newUrl %}/blog/{{post.date | date: '%Y-%m-%d'}}-{{urlPieces[-1]}}/{% endcapture %}
+    {{post.path}} - {{post.url}} - {{post.date | date: '/%Y-%m-%d/'}}{{urlPieces[-1]}}/ - {{post.date | date: '%B %d, %Y'}}
+<script> urlArray['{{post.url}}']="{{newUrl}}";pathOldUrlArray['{{post.path}}']="{{post.url}}";pathNewUrlArray['{{post.path}}']="{{newUrl}}";</script>
 {% endfor %}

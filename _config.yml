@@ -20,6 +20,7 @@ pjax: false
 pathDebug: false
 
 # Custom blog path
+permalink: "/blog/:year-:month-:date-:title"
 #permalink: "/:year-:month-:date/:title"
 #permalink: "/:month-:day-:year/:title.html"
 

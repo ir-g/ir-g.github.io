@@ -7,7 +7,14 @@ var urlArray = {};  //Old URL - New URL
 var pathOldUrlArray = {}; //Post Path - Old URL
 var pathNewUrlArray = {}; //Post Path - New URL
 </script>
-{% for post in site.posts %}{% assign urlPieces = post.url|split:'/' %}{% capture newUrl %}/blog/{{post.date | date: '%Y-%m-%d'}}-{{urlPieces[-1]}}/{% endcapture %}
+{% for post in site.posts %}{% assign urlPieces = post.url|split:'/' %}
+{% capture newUrl %}/blog/{{post.date | date: '%Y-%m-%d'}}-{{urlPieces[-1]}}/{% endcapture %}
+
     {{post.path}} - {{post.url}} - {{post.date | date: '/%Y-%m-%d/'}}{{urlPieces[-1]}}/ - {{post.date | date: '%B %d, %Y'}}
-<script> urlArray['{{post.url}}']="{{newUrl}}";pathOldUrlArray['{{post.path}}']="{{post.url}}";pathNewUrlArray['{{post.path}}']="{{newUrl}}";</script>
+
+<script>
+urlArray['{{post.url}}']="{{newUrl}}";
+pathOldUrlArray['{{post.path}}']="{{post.url}}";
+pathNewUrlArray['{{post.path}}']="{{newUrl}}";
+</script>
 {% endfor %}

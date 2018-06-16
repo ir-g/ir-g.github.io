@@ -20,6 +20,7 @@ pjax: false
 pathDebug: false
 
 # Custom blog path
+permalink: /blog/:year-:month-:day-:title
 #permalink: "/blog/:year-:month-:date-:title"
 #permalink: "/:year-:month-:date/:title"
 #permalink: "/:month-:day-:year/:title.html"
@@ -61,7 +62,7 @@ defaults:
     values:
       layout: "post"
       is_post: true
-      permalink: "/blog/:year-:month-:day-:title"
+      permalink: /blog/:year-:month-:day-:title
 
 
 # As according to https://help.github.com/articles/sitemaps-for-github-pages/

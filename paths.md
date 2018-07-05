@@ -12,7 +12,7 @@ var pathNewUrlArray = {}; //Post Path - New URL
 {% capture exUrl %}/blog/{{post.date | date: '%Y-%m-%d'}}-{{urlPieces[-1]}}/{% endcapture %}
 {% capture newUrl %}/blog/{{post.date | date: '%Y-%m-%d'}}/{{urlPieces[-1]}}/{% endcapture %}
 
-    {{post.path}} - {{post.url}} - {{post.date | date: '/%Y-%m-%d/'}}{{urlPieces[-1]}}/ - {{post.date | date: '%B %d, %Y'}}
+    {{exUrl}}  {{newUrl}} -- {{post.path}} - {{post.url}} - {{post.date | date: '/%Y-%m-%d/'}}{{urlPieces[-1]}}/ - {{post.date | date: '%B %d, %Y'}}
 
 <script>
 urlArray['{{exUrl}}']="{{newUrl}}";

@@ -1,0 +1,18 @@
+---
+layout: post 
+title:  "May's Third Way" 
+description:  "A good starting point for two years ago" 
+date:   2018-07-08T17:02:33.378Z 
+---
+
+Theresa May has concluded her Brexit meeting with general agreement from her cabinet, and a commitment to a formal reinstatement of Collective Cabinet Responsibility over Brexit([or not](https://mobile.twitter.com/JohnJCrace/status/1015733776171913216)), which is a big deal if that can hold up. The detailing is still made up of the finest Brexit Fudge, and while it makes for a good first draft of what the Brexit negotiations should have opened with, we are going to need a substantial jump in progress to see deadlines even come close to being met. That said, it is worth considering what this deal actually is, to see how negotiations could fare.
+
+A basic summation of this proposal is that the UK takes part in the Single Market in goods(inc. agrifood), with the UK keeping rules from the EU on that matter, with a form of veto on new rules. The proposal sees the UK leaving the Single Market for Services, and replaces Freedom of Movement with some kind of similar arrangement([likely including special rights for EU citizens](https://www.bbc.co.uk/news/uk-politics-44752273)).  The ECJ ends direct jurisdiction, with some joint process for arbitration, seemingly observing ECJ case law.  The proposal also entails a customs partnership with ‘technology’, in which the UK collects tariffs on behalf of the EU. [More at: [BBC News](https://www.bbc.co.uk/news/uk-politics-44749993) and [The Guardian](https://www.theguardian.com/politics/2018/jul/06/what-the-cabinet-has-agreed-at-chequers-brexit-meeting)]
+
+Ignoring the latter elements of the arrangement, this deal strongly resembles the [Ukraine-EU Association Agreement](https://en.wikipedia.org/wiki/Ukraine%E2%80%93European_Union_Association_Agreement) which exists for the whole purpose of serving as part of a pathway to EU membership, and not as necessarily as an element of a long-term arrangement. The Goods-Only element only exists because of a wish to execute the deal with due haste, as opposed to being a template agreement, so Michel Barnier’s team may yet express concerns about the splitting up of Single Market components.
+
+There will be some concern from business that the Service sector, which makes up a lot of UK business, will now potentially face new obstacles when exporting to the EU and EFTA, a huge market that the UK already actively benefits from. The crux of the issue is [surmised well](http://www.politics.co.uk/blogs/2018/07/06/week-in-review-wherever-brexiters-look-they-see-dead-ends) by Politics.co.uk’s Ian Dunt:
+
+>  "The EU got up the morning after the vote and had a position pretty much like the one it has now. If you want Option A - lots of trade - you have to sign up to lots of alignment. If you want Option B - lots of independence - you have to accept loss of trade."
+
+This is something that seems to be something that is avoided by leading Brexiteers either through pure lack of understanding, or intentional avoidance of the facts. Some Brexiteers [fear that they'll be further concessions](https://news.sky.com/story/amp/theresa-may-secures-a-fragile-peace-over-brexit-11429141), and some reckon they may have given up too much, given that the side happiest with this [isn't theirs](https://www.politicshome.com/news/europe/eu-policy-agenda/brexit/analysis/96634/analysis-tory-brexiteers-all-wrong-people-are).

@@ -1,7 +1,7 @@
 ---
 layout: post 
 title:  "May's Third Way" 
-description:  "A good starting point for two years ago" 
+description: "A good starting point for two years ago" 
 date:   2018-07-08T17:02:33.378Z 
 ---
 
@@ -16,3 +16,5 @@ There will be some concern from business that the Service sector, which makes up
 >  "The EU got up the morning after the vote and had a position pretty much like the one it has now. If you want Option A - lots of trade - you have to sign up to lots of alignment. If you want Option B - lots of independence - you have to accept loss of trade."
 
 This is something that seems to be something that is avoided by leading Brexiteers either through pure lack of understanding, or intentional avoidance of the facts. Some Brexiteers [fear that they'll be further concessions](https://news.sky.com/story/amp/theresa-may-secures-a-fragile-peace-over-brexit-11429141), and some reckon they may have given up too much, given that the side happiest with this [isn't theirs](https://www.politicshome.com/news/europe/eu-policy-agenda/brexit/analysis/96634/analysis-tory-brexiteers-all-wrong-people-are).
+
+With all this in mind, it seems that this model doesn't feel like the blueprint of a deal, so much as a stepping stone to a different one. The commitment to preserving the present border in Northern Ireland compels single market access, ideally including services, making for full Single Market membership to become a likely future pathway. The state of international relations at present might compel the EU to be more generous in its Free Trade offerings, but the UK government doesn't yet seem to have considered engaging in some form of Customs Union. At present membership of the EU or EFTA Customs Union would be a far more logical thing, but this continues to be avoided by a the Government, held hostage by Brexiteers. EFTA membership could be sold relatively easily, with [more control over faster negotiated deals around the world](http://blogs.lse.ac.uk/brexit/2016/06/22/in-case-of-a-brexit-access-to-eftas-suite-of-trade-agreements-would-be-an-economic-boost/), its [own court](http://www.eftacourt.int/) and a trade over politics focus(with [clear negotiation & trade listings](http://www.efta.int/free-trade/free-trade-agreements)).

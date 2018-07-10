@@ -20,8 +20,6 @@ layout: null
 </head>
 
 <body>
-	<div class="container" id="container1" >
-	<h5>Create new post at {{ site.title }}</h5>
 	{% if site.github.repo == none %}
 		<div class="alert alert-danger" role="alert"><code>github.repo</code> is not set. Check <a href="https://github.com/vrypan/jekyll-post-via-web"
 		>github.com/vrypan/jekyll-post-via-web</a> for instructions.</div>
@@ -30,29 +28,18 @@ layout: null
 		<div class="alert alert-danger" role="alert"><code>github.branch</code> is not set. Check <a href="https://github.com/vrypan/jekyll-post-via-web"
 		>github.com/vrypan/jekyll-post-via-web</a> for instructions.</div>
 	{% endif %}
+<div class="container" id="container1">
+	<h5>Create new post at Isaac Reid-Guest</h5>
+	
+	
 	<div id="messages"></div>
 	<form id="theform" method="get">
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="Post Title" id="p_title" name="title">
-		</div>
-		<div class="form-group">
-			<input type="text" class="form-control" placeholder="One-line post description" id="p_description" name="title">
-		</div>
-		<div class="form-group">
-			<textarea class="form-control" rows="10" id="p_body" placeholder="Type your post here." name="body"></textarea>
-		</div>
-		<div class="form-inline">
-			<div class="form-group">
-				<label for="username" class="sr-only">Username</label>
-				<input type="text" class="form-control" id="username" placeholder="GitHub username">
-			</div>
-			<div class="form-group">
-				<label for="password" class="sr-only">password</label>
-				<input type="password" class="form-control" id="password" placeholder="GitHub password">
-			</div>
-			<input type="button" class="btn btn-default  btn-lg btn-block" id="go" value="Post" />
-			<a class="btn btn-link" data-toggle="collapse" href="#submitform" aria-expanded="false" aria-controls="submitform">Remember username/password</a>
-		</div>
+		
+		
+		
+		<input type="text" class="form-control" placeholder="Post Title" id="p_title" name="title"><input type="text" class="form-control" placeholder="One-line post description" id="p_description" name="title"><textarea class="form-control" rows="10" id="p_body" placeholder="Type your post here." name="body"></textarea><input type="button" class="btn btn-default  btn-lg btn-block" id="go" value="Post"><hr>
+
+<input type="text" class="form-control" id="username" placeholder="GitHub username"><label for="username" class="sr-only">Username</label><input type="password" class="form-control" id="password" placeholder="GitHub password"><label for="password" class="sr-only">password</label><a class="btn btn-link" data-toggle="collapse" href="#submitform" aria-expanded="false" aria-controls="submitform">Remember username/password</a>
 		<div class="collapse" id="submitform">
 			<br>
 			<div class="well">
@@ -74,12 +61,10 @@ layout: null
 		selection = document.selection.createRange().text;
 	}
 	selection = encodeURIComponent(selection);
-	new_window=window.open('{{ "/cms/" | prepend: site.baseurl | prepend: site.url }}?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
-	})();"
-	>post to GitHub</a></p>
+	new_window=window.open('https://ir-g.uk/cms/?title='+title+'&amp;selection='+selection+'&amp;url='+encodeURIComponent(document.location.href),'JekyllPopup','resizable,scrollbars,status=0,toolbar=0,menubar=0,titlebar=0,width=640,height=600,location=0');
+	})();">post to GitHub</a></p>
 	</div>
-
-	<script>
+<script>
 	function get_query(){
 		// Source: http://fellowtuts.com/jquery/getting-query-string-values-in-javascript/
 		var url = document.location.href;
@@ -118,7 +103,7 @@ layout: null
 		var d = new Date()
 		return d.toISOString()
 	}
-	var API_NEW_POST = 'https://api.github.com/repos/{{ site.github.repo }}/contents/_posts/' ;
+	var API_NEW_POST = 'https://api.github.com/repos/ir-g/ir-g.github.io/contents/_posts/' ;
 	$("#go").click(function() {
 		var user = $('#username').val() ;
 		var password = $('#password').val() ;
@@ -143,14 +128,14 @@ layout: null
 			data: JSON.stringify({
 				content: btoa(unescape(encodeURIComponent(p_body))),
 				message: 'posted via web',
-				branch: '{{ site.github.branch }}'
+				branch: 'master'
 			}),
 			beforeSend: function(xhr) {
 				xhr.setRequestHeader("Authorization", "Basic " + btoa(user+":"+password));
 			},
 			success: function(data) {
 				posted_ok = true ;
-				$('#container1').html('<h2>Successfully posted to {{ site.title }}</h2') ;
+				$('#container1').html('<h2>Successfully posted to Isaac Reid-Guest</h2') ;
 			},
 			error: function(request, status, error) {
 				responseText = jQuery.parseJSON( request.responseText );

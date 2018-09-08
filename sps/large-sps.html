@@ -1250,20 +1250,21 @@ External links
 (in Japanese) About the Hokkaido Iburi Earthquake from the Prime Minister of Japan </part>
 	    <part path="about">About</part>
 <part path="about">About</part>
+<part path="all"><h3>Page List</h3><div id="pagelist"></div></part>
 <script>
-document.write('<part path="all"><h3>Page List</h3><div id="pagelist"></div></part>');
 var paths = [];
 var path = "/";
-if(window.location.search){
-	path = window.location.search.substring(1);
+var pageListHtml = "";
+for(var i = 0; i<paths.length; i++){
+pageListHtml +="<a href='?"+paths[i]+"'>"+paths[i]+"</a><br>";
 }
+document.getElementById("pagelist").innerHTML=pageListHtml;
+if(window.location.search){path = window.location.search.substring(1);}
 for(var i = 0; i<document.getElementsByTagName("part").length; i++){
 	var part = document.getElementsByTagName("part")[i];
 	if(part.hasAttribute("path")){
 		console.log("hasPath");
-		if(paths.includes(part.getAttribute("path"))){
-			//DO nothing
-		}else{
+		if(!paths.includes(part.getAttribute("path"))){
 			paths.push(part.getAttribute("path"));
 		};
 		if((part.getAttribute("path")==path)){
@@ -1271,11 +1272,6 @@ for(var i = 0; i<document.getElementsByTagName("part").length; i++){
 		}
 	}
 }
-var pageListHtml = "";
-for(var i = 0; i<paths.length; i++){
-pageListHtml +="<a href='?"+paths[i]+"'>"+paths[i]+"</a><br>";
-}
-document.getElementById("pagelist").innerHTML=pageListHtml;
 /*UPDATE PAGE TITLE ATTEMPT*/
 /*document.title = document.getElementById("sitetitle") + "&middash;" + document.getElementById("pagetitle").innerHTML;*/
 </script>

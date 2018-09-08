@@ -1255,10 +1255,6 @@ External links
 var paths = [];
 var path = "/";
 var pageListHtml = "";
-for(var i = 0; i<paths.length; i++){
-pageListHtml +="<a href='?"+paths[i]+"'>"+paths[i]+"</a><br>";
-}
-document.getElementById("pagelist").innerHTML=pageListHtml;
 if(window.location.search){path = window.location.search.substring(1);}
 for(var i = 0; i<document.getElementsByTagName("part").length; i++){
 	var part = document.getElementsByTagName("part")[i];
@@ -1272,6 +1268,10 @@ for(var i = 0; i<document.getElementsByTagName("part").length; i++){
 		}
 	}
 }
+for(var i = 0; i<paths.length; i++){
+pageListHtml +="<a href='?"+paths[i]+"'>"+paths[i]+"</a><br>";
+}
+document.getElementById("pagelist").innerHTML=pageListHtml;
 /*UPDATE PAGE TITLE ATTEMPT*/
 /*document.title = document.getElementById("sitetitle") + "&middash;" + document.getElementById("pagetitle").innerHTML;*/
 </script>

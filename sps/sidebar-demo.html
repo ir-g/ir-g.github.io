@@ -1,111 +1,138 @@
 <!DOCTYPE HTML>
 <html>
-<head>
-<title>SinglePage</title><meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-	body {
-		margin: 0;
-		padding: 20px;
-		background: {color:Background};
-		font-family: arial;
-		font-size: 0.75em;
-		color: {color:Text};
-	}
-  a img { border-width: 0px; }
-	
-	.clear {
-		clear: both;
-	}
-    
-    /* Compatibilty Check */
-	@media all and (min-width: 700px) {
-	#container {
-	  width: 770px;
-	}
-    #left {
-	float: left;
-	width: 200px;
-        height:100%;
-        position:fixed;
-	top:0px;
-	left:0px;
-	}
-        	#right {
-		width: 500px;
-		float: right;
-	}
-	}
-    @media all and (max-width: 699px){
+  <head>
+    <title>SinglePage
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        font-family: arial;
+        font-size: 0.75em;
+        color: {
+          color:Text}
+        ;
+      }
+      a img {
+        border-width: 0px;
+      }
+      .clear {
+        clear: both;
+      }
+      /* Compatibilty Check */
+      @media all and (min-width: 700px) {
+        #container {
+          width: 770px;
+        }
+        #left {
+          float: left;
+          width: 200px;
+          height:100%;
+          position:fixed;
+          top:0px;
+          left:0px;
+        }
+        #right {
+          width: 500px;
+          float: right;
+        }
+      }
+      @media all and (max-width: 699px){
         #right{
-            width:90%;
-            }
-            #left{
-         width:100%;
-      }}
-	#left{
-    color:white;
-    background-color:black;
-  }
-	#left a.h2 {
-    color: white;
-		text-decoration: underline;
-	}
-	#left a:hover {
-    color: white;
-		text-decoration: underline;
-  }
-  img {
-      max-width: 100%;
-  }
-  </style>
-	<!-- VITAL PART STYLING --> <style>part{display:none;}</style>
-</head>
-<body>
-  <div id="container">
-    <div id="left">
-      <h1 id="sitetitle">SinglePageSite</h1>
-      <hr style="background-color:white">
-      <ul>
-        <a href="?">Home</a> &bull;          
-        <a href="?about">About</a> &bull;          
-        <a href="?all">Sitemap</a>     
-      </ul>
+          width:90%;
+        }
+        #left{
+          width:100%;
+        }
+      }
+      #left{
+        color:white;
+        background-color:black;
+      }
+      #left a.h2 {
+        color: white;
+        text-decoration: underline;
+      }
+      #left a {
+        color: white;
+        text-decoration: underline;
+      }
+      #left a:hover {
+        color: white;
+      }
+      img {
+        max-width: 100%;
+      }
+    </style>
+    <!-- VITAL PART STYLING --> 
+    <style>part{
+      display:none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="left">
+        <h1 id="sitetitle">SinglePageSite
+        </h1>
+        <hr style="background-color:white">
+        <ul>
+          <a href="?">Home
+          </a> &bull;          
+          <a href="?about">About
+          </a> &bull;          
+          <a href="?all">Sitemap
+          </a>     
+        </ul>
+      </div>
+      <div id="right">
+        <h2 id="pagetitle">
+          <part path="/">Home
+          </part>
+          <part path="about">About
+          </part>
+          <part path="all">Site Map
+          </part>
+        </h2>
+        <hr />
+        <part path="/">
+          This is a homepage
+        </part>
+        <part path="about">About
+        </part>
+        <part path="all">
+          <div id="pagelist">
+          </div>
+        </part>
+      </div>
     </div>
-    <div id="right">
-      <h2 id="pagetitle"><part path="/">Home</part><part path="about">About</part><part path="all">Site Map</part></h2>
-      <hr />
-<part path="/">
-This is a homepage
-</part>
-<part path="about">About</part>
-<part path="all"><div id="pagelist"></div></part>
-</div>
-</div>
-<script>
-var paths = [];
-var path = "/";
-var pageListHtml = "";
-if(window.location.search){path = window.location.search.substring(1);}
-for(var i = 0; i<document.getElementsByTagName("part").length; i++){
-	var part = document.getElementsByTagName("part")[i];
-	if(part.hasAttribute("path")){
-		console.log("hasPath");
-		if(!paths.includes(part.getAttribute("path"))){
-			paths.push(part.getAttribute("path"));
-		};
-		if((part.getAttribute("path")==path)){
-			part.style.display = "block";
-		}
-	}
-}
-for(var i = 0; i<paths.length; i++){
-pageListHtml +="<a href='?"+paths[i]+"'>"+paths[i]+"</a><br>";
-}
-document.getElementById("pagelist").innerHTML=pageListHtml;
-/*UPDATE PAGE TITLE ATTEMPT*/
-/*document.title = document.getElementById("sitetitle") + "&middash;" + document.getElementById("pagetitle").innerHTML;*/
-</script>
-</div>
-</body>
+    <script>
+      var paths = [];
+      var path = "/";
+      var pageListHtml = "";
+      if(window.location.search){
+        path = window.location.search.substring(1);
+      }
+      for(var i = 0; i<document.getElementsByTagName("part").length; i++){
+        var part = document.getElementsByTagName("part")[i];
+        if(part.hasAttribute("path")){
+          console.log("hasPath");
+          if(!paths.includes(part.getAttribute("path"))){
+            paths.push(part.getAttribute("path"));
+          };
+          if((part.getAttribute("path")==path)){
+            part.style.display = "block";
+          }
+        }
+      }
+      for(var i = 0; i<paths.length; i++){
+        pageListHtml +="<a href='?"+paths[i]+"'>"+paths[i]+"</a><br>";
+      }
+      document.getElementById("pagelist").innerHTML=pageListHtml;
+      /*UPDATE PAGE TITLE ATTEMPT*/
+      /*document.title = document.getElementById("sitetitle") + "&middash;" + document.getElementById("pagetitle").innerHTML;*/
+    </script>
+    </div>
+  </body>
 </html> 

@@ -28,8 +28,17 @@ body {
   background: #464646;
   max-width: 700px;
   text-align: left;
-  padding: 1em;
+  /*padding: 1em; */
+    padding: 0;
   /*margin: 3em auto 1em;*/
+}
+#header{padding: 1em 1em 0.5em 1em;
+  background: black;}
+#content{
+ padding: 0em 1em 1em 1em;
+    border-top: 0.3em #0000003b solid;
+    border-left: 0.3em #0000003b solid;
+    border-right: 0.3em #0000003b solid; 
 }
 #menu-link-home{ display: none; }
 a {

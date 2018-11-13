@@ -71,6 +71,7 @@ window.onkeydown=function(e){ //On keypress (e)
 </script>
 </head>
 <body>
+<div id="box">
 <div id="all">
 <div id="header">
 <a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
@@ -83,7 +84,9 @@ window.onkeydown=function(e){ //On keypress (e)
 <div id="content">
 {{ content }}
 </div>
-</div>{% if site.ga_enabled %}
+</div>
+</div>
+{% if site.ga_enabled %}
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

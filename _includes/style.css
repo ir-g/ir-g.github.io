@@ -6,7 +6,8 @@ body {
   font-family:"Helvetica",sans-serif;
   font-size: 1.05em;
  /* padding: 0 5%; */
-  color: white
+  color: white;
+  margin:0;
 }
 .date :target {
   background: lightyellow;

@@ -15,7 +15,9 @@ body {
 }
 #box{
     max-width: 700px;
-    background: #444444;/*464646*/
+  
+  box-shadow: inset 0px 0px 0px 0.3em #0000003b;
+    background: #424242;/*464646*/
     max-width: 700px;
     text-align: left;
     padding: 0em 0em 0em 0em;
@@ -25,7 +27,7 @@ body {
 }
 #all {
   /* background: black; */
-  background: #464646;
+  background: #424242;
   max-width: 700px;
   text-align: left;
   /*padding: 1em; */
@@ -37,8 +39,8 @@ body {
 #content{
  padding: 0em 1em 1em 1em;
     border-top: 0.3em #0000003b solid;
-    border-left: 0.3em #0000003b solid;
-    border-right: 0.3em #0000003b solid; 
+    /*border-left: 0.3em #0000003b solid;
+    border-right: 0.3em #0000003b solid; */
 }
 #menu-link-home{ display: none; }
 a {

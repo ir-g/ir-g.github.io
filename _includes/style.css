@@ -1,3 +1,11 @@
+@media(max-width: 500px){
+  #all{
+    margin-top: 2em;
+  }
+  #header{
+    position:sticky;
+  }
+}
 html {
   overflow-y: scroll;
 }

@@ -24,4 +24,4 @@ PJAX is a terrific idea, I applaud implementations of it on some sites — G
 
 *Also posted on [Medium](https://medium.com/@isaacreidguest/pjax-is-the-wrong-approach-817e31960fdc).*
 
-**Read more:** [This brilliant talk](http://idlewords.com/talks/website_obesity.htm) discusses "The website obesity crisis" in words far better than my own. 
+**Read more:** [This brilliant talk](http://web.archive.org/web/20181125011301/http://idlewords.com/talks/website_obesity.htm) discusses "The website obesity crisis" in words far better than my own. 

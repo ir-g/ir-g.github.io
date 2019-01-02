@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:param name="file1" select="document('http://www.newstatesman.com/feeds/site_feed.rss')"/>
+  <xsl:param name="file1" select="document('site_feed.rss')"/>
   <xsl:output method="html" /> 
-  <!--<xsl:output method="xml" encoding="UTF-8" indent="yes"/>-->
+  <!--<xsl:output method="xml" encoding="UTF-8" indent="yes"/>http://www.newstatesman.com/feeds/-->
 
   <xsl:template match="/">
     

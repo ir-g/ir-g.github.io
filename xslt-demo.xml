@@ -6,12 +6,11 @@
   <!--<xsl:output method="xml" encoding="UTF-8" indent="yes"/>http://www.newstatesman.com/feeds/-->
 
   <xsl:template match="/">
-    
-   
-      <xsl:for-each select="$file1/Channel/Item">
-      <xsl:apply-templates select="item"/>
-        
-        <!--<li><xsl:value-of select="value"/>xsl:variable name="ReferencedID" select="@id"/>
+	  <xsl:for-each select="$file1/channel/item">
+		  <xsl:apply-templates select="item"/>
+		</xsl:for-each>
+  </xsl:template>
+	<!--<li><xsl:value-of select="value"/>xsl:variable name="ReferencedID" select="@id"/>
         <xsl:choose>
           <xsl:when test="$ReferencedID = $file2//Id/@id">
             <xsl:for-each select="fields/field">
@@ -19,10 +18,10 @@
             </xsl:for-each>
           </xsl:when>
         </xsl:choose>-->
-      </xsl:for-each>
+      
 
-  </xsl:template>
-    	<xsl:template match="item">
+ 
+<xsl:template match="item">
 	<div id="item">
 	<ul>
 			<li>

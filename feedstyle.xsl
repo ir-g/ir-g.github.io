@@ -8,12 +8,12 @@ layout: null
 <xsl:apply-templates select="rss/channel"/>
 </xsl:template>
 <xsl:template match="rss/channel">
-<!DOCTYPE HTML>
+<!--DOCTYPE HTML-->
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>
-<xsl:value-of select="title"/>
+<xsl:value-of select="channel/title"/>
 </title>
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 <link rel="stylesheet" type="text/css" href="http://osric.com/chris/accidental-developer/wp-content/themes/defusion/style.css"/>

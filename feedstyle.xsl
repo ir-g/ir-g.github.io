@@ -71,6 +71,7 @@ layout: null
 </html>
 </xsl:template>
 <xsl:template match="item">
+<xsl:output method="html" indent="yes" version="4.0"/>
 <h2>
 <a href="{link}">
 <xsl:apply-templates select="title"/>

@@ -13,7 +13,7 @@ layout: null
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title>
-<xsl:value-of select="/rss/channel/title"/>
+<xsl:value-of select="title"/>
 </title>
 <link rel="stylesheet" type="text/css" href="styles.css"/>
 <link rel="stylesheet" type="text/css" href="http://osric.com/chris/accidental-developer/wp-content/themes/defusion/style.css"/>

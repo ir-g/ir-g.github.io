@@ -39,7 +39,7 @@
 <div id="content">
 <h2>RSS Feed</h2>
 Add this RSS feed to your reader of choice.
-<hr>
+<hr />
 <xsl:apply-templates select="item"/>
 </div>
 </div>

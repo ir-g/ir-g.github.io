@@ -26,11 +26,22 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title><xsl:value-of select="atom:title"/></title>
-<link rel="stylesheet" type="text/css" href="styles.css"/>
-<link rel="stylesheet" type="text/css" href="http://osric.com/chris/accidental-developer/wp-content/themes/defusion/style.css"/>
+	
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
 <body>
+<div id="box">
+<div id="all">
+<div id="header">
+<a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
+  <div class="nav">
+    <a class="nav-item" style="background-color: #fe4902;" href="/">Home</a>
+    <a class="nav-item" style="background-color: #4caf50;" href="/blog/">Blog</a> 
+    <a class="nav-item" style="background-color: #2196F3;" href="/contact/">Contact</a>
+  </div>
+</div>
+<div id="content">
 <h1><xsl:apply-templates select="title"/></h1>
 <p>This RSS feed provides the latest posts from <xsl:apply-templates select="title"/>.</p>
 	
@@ -46,7 +57,9 @@
 <p>You can also add content from RSS feeds to your <a href="http://my.yahoo.com">My Yahoo</a> or <a href="http://www.google.com/ig">iGoogle</a> page.</p>
 
 <xsl:apply-templates select="item"/>
-
+</div>
+</div>
+</div>
 </body>
 </html>
 

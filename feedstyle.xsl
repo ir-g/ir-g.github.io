@@ -14,46 +14,59 @@ layout: null
 <title>
 <xsl:value-of select="atom:title"/>
 </title>
-<link rel="stylesheet" type="text/css" href="styles.css"/>
-<link rel="stylesheet" type="text/css" href="http://osric.com/chris/accidental-developer/wp-content/themes/defusion/style.css"/>
+<link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-<h1>
-<xsl:apply-templates select="title"/>
-</h1>
-<p>
-This RSS feed provides the latest posts from
-<xsl:apply-templates select="title"/>
-.
-</p>
-<h2>What is an RSS feed?</h2>
-<p>
-An RSS feed is an XML-based data format that allows publishers to syndicate information. It allows you to stay up to date on topics that interest you—all in one place—without visiting 20-30 different web sites to check for new content. All you need to do to get started is to add the URL (web address) for this feed to your RSS reader.
-</p>
-<p>
-The URL for this RSS feed is:
-<xsl:apply-templates select="atom:link"/>
-</p>
-<h3>Recommended RSS readers:</h3>
-<ul>
-<li>
-<a href="http://www.google.com/reader/">Google Reader</a>
-</li>
-<li>
-<a href="http://www.bloglines.com/">Bloglines</a>
-</li>
-<li>
-<a href="http://www.newsgator.com/Individuals/NewsGatorOnline/Default.aspx">Newsgator Online</a>
-</li>
-</ul>
-<p>
-You can also add content from RSS feeds to your
-<a href="http://my.yahoo.com">My Yahoo</a>
-or
-<a href="http://www.google.com/ig">iGoogle</a>
-page.
-</p>
-<xsl:apply-templates select="item"/>
+<div id="box">
+<div id="all">
+<div id="header">
+<a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
+  <div class="nav">
+    <a class="nav-item" style="background-color: #fe4902;" href="/">Home</a>
+    <a class="nav-item" style="background-color: #4caf50;" href="/blog/">Blog</a> 
+    <a class="nav-item" style="background-color: #2196F3;" href="/contact/">Contact</a>
+  </div>
+</div>
+<div id="content">
+  <h2><a href="#" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Blog</a></h2>
+  <h1>
+  <xsl:apply-templates select="title"/>
+  </h1>
+  <p>
+  This RSS feed provides the latest posts from
+  <xsl:apply-templates select="title"/>
+  .
+  </p>
+  <h2>What is an RSS feed?</h2>
+  <p>
+  An RSS feed is an XML-based data format that allows publishers to syndicate information. It allows you to stay up to date on topics that interest you—all in one place—without visiting 20-30 different web sites to check for new content. All you need to do to get started is to add the URL (web address) for this feed to your RSS reader.
+  </p>
+  <p>
+  The URL for this RSS feed is:
+  <xsl:apply-templates select="atom:link"/>
+  </p>
+  <h3>Recommended RSS readers:</h3>
+  <ul>
+  <li>
+  <a href="http://www.google.com/reader/">Google Reader</a>
+  </li>
+  <li>
+  <a href="http://www.bloglines.com/">Bloglines</a>
+  </li>
+  <li>
+  <a href="http://www.newsgator.com/Individuals/NewsGatorOnline/Default.aspx">Newsgator Online</a>
+  </li>
+  </ul>
+  <p>
+  You can also add content from RSS feeds to your
+  <a href="http://my.yahoo.com">My Yahoo</a>
+  or
+  <a href="http://www.google.com/ig">iGoogle</a>
+  page.
+  </p>
+  <xsl:apply-templates select="item"/>
+</div>
+</div>
 </body>
 </html>
 </xsl:template>

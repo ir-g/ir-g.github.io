@@ -37,6 +37,33 @@ layout: null
   <xsl:apply-templates select="title"/>
   .
   </p>
+  <h2>What is an RSS feed?</h2>
+  <p>
+  An RSS feed is an XML-based data format that allows publishers to syndicate information. It allows you to stay up to date on topics that interest you—all in one place—without visiting 20-30 different web sites to check for new content. All you need to do to get started is to add the URL (web address) for this feed to your RSS reader.
+  </p>
+  <p>
+  The URL for this RSS feed is:
+  <xsl:apply-templates select="atom:link"/>
+  </p>
+  <h3>Recommended RSS readers:</h3>
+  <ul>
+  <li>
+  <a href="http://www.google.com/reader/">Google Reader</a>
+  </li>
+  <li>
+  <a href="http://www.bloglines.com/">Bloglines</a>
+  </li>
+  <li>
+  <a href="http://www.newsgator.com/Individuals/NewsGatorOnline/Default.aspx">Newsgator Online</a>
+  </li>
+  </ul>
+  <p>
+  You can also add content from RSS feeds to your
+  <a href="http://my.yahoo.com">My Yahoo</a>
+  or
+  <a href="http://www.google.com/ig">iGoogle</a>
+  page.
+  </p>
   <xsl:apply-templates select="item"/>
 </div>
 </div></div>
@@ -47,23 +74,20 @@ layout: null
 <xsl:output method="html" indent="yes" version="4.0"/>
 <h2>
 <a href="{link}">
-<xsl:value-of select="title"/>
-<!--<xsl:apply-templates select="title"/>-->
+<xsl:apply-templates select="title"/>
 </a>
 </h2>
 <p>
-<xsl:value-of select="description"/>
-<!--<xsl:apply-templates select="description"/>-->
+<xsl:apply-templates select="description"/>
 </p>
 <hr/>
 </xsl:template>
-  <!--
 <xsl:template match="title">
 <xsl:value-of select="."/>
 </xsl:template>
 <xsl:template match="description">
 <xsl:value-of select="."/>
-</xsl:template>-->
+</xsl:template>
 <xsl:template match="atom:link">
 <a href="{.}">
 <xsl:value-of select="."/>

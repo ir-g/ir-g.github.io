@@ -17,8 +17,7 @@ layout: null
 <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 <body>
-<div id="box">
-<div id="all">
+<div id="box"><div id="all">
 <div id="header">
 <a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
   <div class="nav">
@@ -66,7 +65,7 @@ layout: null
   </p>
   <xsl:apply-templates select="item"/>
 </div>
-</div>
+</div></div>
 </body>
 </html>
 </xsl:template>

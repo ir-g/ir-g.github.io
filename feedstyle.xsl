@@ -1,3 +1,6 @@
+---
+layout: null
+---
 <!--rss2.xsl via https://osric.com/chris/accidental-developer/2008/12/create-an-xsl-stylesheet-for-your-rss-or-atom-feeds/-->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:atom="http://www.w3.org/2005/Atom" version="1.0">
 <xsl:output method="xml" version="1.0" encoding="utf-8" doctype-public="-//W3C//DTD XHTML 1.0 Strict//EN" doctype-system="http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"/>

@@ -2,15 +2,7 @@
 title: Sci Py Revision
 ---
 
-<h2>
-Sci Py
-<part path="/">Home
-</part>
-<part path="about">About
-</part>
-<part path="all">Site Map
-</part>
-</h2>
+<h2> Sci Py - <part path="/">Home</part><part path="about">About</part><part path="all">Site Map</part></h2>
 <hr />
 <a href="?">Home</a> &bull; <a href="?about">About</a> &bull; <a href="?all">Listing</a>
 <hr />

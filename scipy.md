@@ -9,16 +9,16 @@ title: Sci Py Revision
 ### Links
 
  * Python documentation
-   * https://docs.python.org/3.6/
+   * <https://docs.python.org/3.6/>
  * NumPy User Guide
-   * https://docs.scipy.org/doc/numpy/user/index.html
+   * <https://docs.scipy.org/doc/numpy/user/index.html>
  * Scipy Lecture Notes
-   * http://www.scipy-lectures.org/index.html
+   * <http://www.scipy-lectures.org/index.html>
  * 10 Minutes to pandas
-   * http://pandas.pydata.org/pandas-docs/stable/10min.html
+   * <http://pandas.pydata.org/pandas-docs/stable/10min.html>
  * Python for Data Analysis
-   * http://hamelg.blogspot.co.uk/2015/12/python-for-data-analysis-index.html
+   * <http://hamelg.blogspot.co.uk/2015/12/python-for-data-analysis-index.html>
  * Automate the Boring Stuff with Python - online course book
-   * https://automatetheboringstuff.com/#toc
+   * <https://automatetheboringstuff.com/#toc>
  * Python course.EU - website with extensive tutorial material on Python 3 and also many of the useful scientific modules
-   * https://www.python-course.eu/python3_course.php
+   * <https://www.python-course.eu/python3_course.php>

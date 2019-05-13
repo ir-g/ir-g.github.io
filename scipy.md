@@ -1,7 +1,7 @@
 ---
 title: Sci Py Revision
 ---
-## Sci Py
+## SciPy
 
   * Google Doc [here](https://docs.google.com/document/d/1Syzfq5H01I3UxJu7roGN9M-xQ3XuoWdYDzF6vezvVMg/edit)
   * Other files [here](https://drive.google.com/drive/folders/1NwBsuDOhquqSzztnX59bfyD8E6dnLAkz?usp=sharing)
@@ -10,7 +10,8 @@ title: Sci Py Revision
 
   * Python documentation
     * <https://docs.python.org/3.6/>
-  *
+  * SciPy Reference
+    * https://docs.scipy.org/doc/scipy/reference/index.html
   * NumPy User Guide
     * <https://docs.scipy.org/doc/numpy/user/index.html>
   * Scipy Lecture Notes

@@ -37,7 +37,7 @@
   </div>
 </div>
 <div id="content">
-<h2>RSS Feed</h2>
+<a href="#" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;"><h2>RSS Feed</h2></a>
 Add this RSS feed to your reader of choice.
 <hr />
 <xsl:apply-templates select="item"/>

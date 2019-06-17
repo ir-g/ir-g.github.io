@@ -2,7 +2,7 @@
 title: Get blog updates via email
 ---
 
-<h2><a href="." style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Get blog updates via email</a></h2>
+<h2><a  name="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Get blog updates via email</a></h2>
   
 
 

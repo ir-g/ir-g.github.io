@@ -30,7 +30,7 @@ github_username: ir-g
 twitter_username: isaacreidguest
 google_plus_id: isaacreidguest
 # Build settings
-markdown:     kramdown
+#markdown:     kramdown
 permalink:    pretty
 sass:
   compressed: true

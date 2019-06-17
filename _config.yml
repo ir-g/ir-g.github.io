@@ -68,3 +68,6 @@ defaults:
       path: "images/*"
     values:
       sitemap: false
+      
+      
+exclude: [vendor]

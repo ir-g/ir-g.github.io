@@ -1,8 +1,8 @@
 ---
-title: Signup for blog updates
+title: Get blog updates via email
 ---
 
-<h2><a href="#" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Signup for blog updates</a></h2>
+<h2><a href="#" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Get blog updates via email</a></h2>
   
 
 

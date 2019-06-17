@@ -9,7 +9,7 @@ rvm:
 # the `install` step will run `bundle install` by default.
 script:
   - bundle exec jekyll build
-  - bundle exec htmlproofer ./_site
+  - bundle exec htmlproofer ./_site  --disable-external
 
 env:
   global:

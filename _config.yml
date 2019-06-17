@@ -63,8 +63,8 @@ defaults:
       layout: "post"
       is_post: true
       permalink: /blog/:year-:month-:day/:title/
-
-
-# As according to https://help.github.com/articles/sitemaps-for-github-pages/
-gems:
-  - jekyll-sitemap
+  -
+    scope:
+      path: "images/*"
+    values:
+      sitemap: false

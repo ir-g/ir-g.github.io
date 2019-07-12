@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en"amp>
+<html lang="en">
 <head>{% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}{% assign splitted_url_parts = page_url_without_index_html | split: '/' %}{% if page.is_post %}{% assign blogmenu = true %}{% elsif splitted_url_parts[1] == "blog" %}{% assign blogmenu = true %}{% else %}{% assign blogmenu = false %}{% endif %}{%if page.noindex %}<meta name="robots" content="noindex">{% endif %}{% if site.pathDebug %}
 <!-- 
 Parent paths[0]:                {{ page.parent_path }}
@@ -16,7 +16,7 @@ blogmenu:                       {{ blogmenu }}
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="An occasional web outpost of Isaac Reid-Guest.">
 <meta name="author" content="Isaac Reid-Guest">
-<link rel="canonical" href="https://ir-g.uk/">    
+<!--<link rel="canonical" href="https://ir-g.uk/">    -->
 <meta name="description" content="{% if page.summary %}{{ page.summary }}{% else %}{{ site.description }}{% endif %}">
 <meta name="author" content="{{ site.author }}">
 {% if page.categories %}<meta name="keywords" content="{{ page.categories | join: ', ' }}">{% endif %}

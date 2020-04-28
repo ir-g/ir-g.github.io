@@ -15,38 +15,55 @@ You can email me at:
 <form id="form" action="https://formspree.io/xnqgapwk" method="POST" class="form-stacked form-light">
     <input type="hidden" name="_next" value="https://ir-g.uk/m/email-thanks/">
     <label for="email">Your email</label>
-    <input type="text" name="email" style="width: 100%;
-    font-family: helvetica;
-    background: darkgray;
-    resize: none;
-    color: black;
-    border: none;
-    padding: 5px;
-    font-style: italic;" placeholder="Your Email Address">
+    <input type="text" id="text-email" name="email" placeholder="Your Email Address">
     <br>
     <label for="content">Your message</label>
-    <textarea type="text" name="content" style="width: 100%;
+    <textarea type="text" name="content" rows="5" placeholder="What would you like to say?"></textarea>
+    <br>
+    <input type="submit" id="form-button" value="Send Message">
+    <div id="form-status"></div>
+  </form>
+</div>
+
+<style>
+#text-email{
+    width: 100%;
     font-family: helvetica;
     background: darkgray;
     resize: none;
     color: black;
     border: none;
     padding: 5px;
-    font-style: italic;" rows="5" placeholder="What would you like to say?"></textarea>
-    <br>
-    <input type="submit" id="form-button" style="font-family: helvetica;
+    font-style: italic;
+}
+textarea{
+    width: 100%;
+    font-family: helvetica;
     background: darkgray;
     resize: none;
     color: black;
     border: none;
     padding: 5px;
-    font-style: italic;" value="Send Message">
-  </form>
-  <div id="form-status" style="background-color: #2196F3;
+    font-style: italic;
+}
+#form-button{
+    font-family: helvetica;
+    background: darkgray;
+    resize: none;
+    color: black;
+    border: none;
+    padding: 5px;
+    font-style: italic;
+}
+#form-status{
+    background-color: #2196F3;
     color: white;
-    padding: 5px;"></div>
-</div>
-
+    padding: 5px;
+}
+#form-status:empty{
+    display: none;
+}
+</style>
 <script>
   window.addEventListener("DOMContentLoaded", function() {
 

@@ -26,7 +26,7 @@ You can email me at:
 </div>
 
 <style>
-  input, textarea, button{
+  input, textarea, button, #form-status{
     box-sizing:border-box
   } 
   #text-email{
@@ -83,11 +83,11 @@ You can email me at:
     function success() {
       form.reset();
       button.style = "display: none ";
-      status.innerHTML = "Thanks!";
+      status.innerHTML = "Thanks, I'll try to reply soon!";
     }
 
     function error() {
-      status.innerHTML = "Oops! There was a problem.";
+      status.innerHTML = "Oops! There was a problem. Try again in a moment?";
     }
 
     // handle the form submission event

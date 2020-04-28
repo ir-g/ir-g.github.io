@@ -26,43 +26,48 @@ You can email me at:
 </div>
 
 <style>
-#text-email{
-    width: 100%;
-    font-family: helvetica;
-    background: darkgray;
-    resize: none;
-    color: black;
-    border: none;
-    padding: 5px;
-    font-style: italic;
-}
-textarea{
-    width: 100%;
-    font-family: helvetica;
-    background: darkgray;
-    resize: none;
-    color: black;
-    border: none;
-    padding: 5px;
-    font-style: italic;
-}
-#form-button{
-    font-family: helvetica;
-    background: darkgray;
-    resize: none;
-    color: black;
-    border: none;
-    padding: 5px;
-    font-style: italic;
-}
-#form-status{
-    background-color: #2196F3;
-    color: white;
-    padding: 5px;
-}
-#form-status:empty{
-    display: none;
-}
+  input, textarea, button{
+    box-sizing:border-box
+  } 
+  #text-email{
+      width: 100%;
+      font-family: helvetica;
+      background: darkgray;
+      resize: none;
+      color: black;
+      border: none;
+      padding: 5px;
+      font-style: italic;
+  }
+  textarea{
+      width: 100%;
+      font-family: helvetica;
+      background: darkgray;
+      resize: none;
+      color: black;
+      border: none;
+      padding: 5px;
+      font-style: italic;
+  }
+  #form-button{
+      font-family: helvetica;
+      background: darkgray;
+      resize: none;
+      color: black;
+      border: none;
+      padding: 5px;
+      font-style: italic;
+      width: 100%;
+  }
+  #form-status{
+      background-color: #2196F3;
+      color: white;
+      padding: 5px;
+      width: 100%;
+  }
+  #form-status:empty{
+      display: none;
+  }
 </style>
 <script>
   window.addEventListener("DOMContentLoaded", function() {

@@ -12,7 +12,7 @@ You can email me at:
 *or use the form below:*
 
 <div>
-<form id="my-form" action="https://formspree.io/xnqgapwk" method="POST" class="form-stacked form-light">
+<form id="form" action="https://formspree.io/xnqgapwk" method="POST" class="form-stacked form-light">
     <input type="hidden" name="_next" value="https://ir-g.uk/m/email-thanks/">
     <label for="email">Your email</label>
     <input type="text" name="email" style="width: 100%;

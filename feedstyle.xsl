@@ -34,13 +34,9 @@
 <div id="all">
 <div id="header">
 <a href="https://ir-g.uk/"><h1 class="site-title">I<span>saac</span> R<span>eid</span>-G<span>uest</span></h1></a>
-  <div class="nav">
-    <a class="nav-item" style="background-color: #fe4902;" href="/">Home</a>
-  </div>
 </div>
 <div id="content">
 <h2><a href="#" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">RSS Feed</a></h2>
-Add this RSS feed to your reader of choice.
 <hr />
 <xsl:apply-templates select="item"/>
 </div>

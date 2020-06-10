@@ -49,6 +49,9 @@
 <xsl:template match="item">
 	<h2><a href="{link}"><xsl:apply-templates select="title"/></a></h2>
 	<p><xsl:apply-templates select="description"/></p>
+	<div style="text-align: right; font-size:small">
+	<span class="small"><xsl:apply-templates select="pubDate"/></span>
+	</div>
 	<hr/>
 </xsl:template>
 
@@ -57,6 +60,10 @@
 </xsl:template>
 
 <xsl:template match="description">
+	<xsl:value-of select="."/>
+</xsl:template>
+	
+<xsl:template match="pubDate">
 	<xsl:value-of select="."/>
 </xsl:template>
 

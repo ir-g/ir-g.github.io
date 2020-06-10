@@ -5,7 +5,7 @@ title: Blog
 
   <h2><a name="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">Blog</a></h2>
   
-  <div class="posts"><a href="/feed.xml"><small>RSS Feed</small></a> <!-- &bull; --><!--<a href="https://ir-g.uk/m/feedburner-signup/">Subscribe via Email</a>--><hr>
+  <div class="posts">
   {% for post in site.posts %}{% capture day %}{{ post.date | date: '%d%m%Y' }}{% endcapture %}{% capture nday %}{{ post.next.date | date: '%d%m%Y' }}{% endcapture %}
     {% if day != nday %}<h3 class="date font-monospace"><a class="font-gray" name="{{ post.date | date: "%Y-%m-%d" }}" href="#{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</a></h3>{% endif %}
     <p><a href="{{ post.url }}">{{ post.title }}</a>{% if post.description %}<br> <span class="font-small">{{ post.description }}</span>{% endif %}</p>{% endfor %}

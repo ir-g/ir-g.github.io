@@ -71,7 +71,7 @@ a.nav-item:visited {  color: white;	}
 a.nav-item:hover {  color: white;	}
 a.nav-item:active { color: white;	}
 .font-monospace{ font-family: monospace; }
-.font-std      { font-family: $font; }
+.font-std      { font-family:"Helvetica",sans-serif; }
 .font-medium   { font-size: medium; }
 .font-small    { font-size: small; }
 .font-gray     { color: gray; }

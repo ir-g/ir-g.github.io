@@ -3,7 +3,7 @@ layout: default
 published: true
 ---
 
-<h2><a name="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #fe4902; color:white; padding: 5px;">Home</a></h2>
+<h2><a id="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #fe4902; color:white; padding: 5px;">Home</a></h2>
 
 Hi! I'm <span class="non-mobile-hide mobile-display-inline"> Isaac Reid-Guest,</span> a developer and designer based in the United Kingdom. Here is some [code I've written](/code) and [things I've blogged](/blog/).
 

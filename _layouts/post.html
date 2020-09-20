@@ -2,7 +2,7 @@
 layout: default
 ---
 <div id="post-header">
-  <h2><a name="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">{{ page.title }}</a></h2>
+  <h2><a id="title" href="#title" style="color: inherit; text-decoration: inherit; background-color: #4caf50; color:white; padding: 5px;">{{ page.title }}</a></h2>
   <h3 class="date font-monospace"><a class="font-gray" name="{{ page.date | date: "%Y-%m-%d" }}" href="/blog/#{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_string }}</a></h3>
 </div>
 <div id="post-content">

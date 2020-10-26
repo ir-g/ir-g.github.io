@@ -9,4 +9,5 @@ Hi! I'm <span class="non-mobile-hide mobile-display-inline"> Isaac Reid-Guest,</
 
 If you have a project you're interested in me developing, prototyping, testing or just having a look at, feel free to email me at <a href="mailto:isaac.reid.guest@gmail.com">`isaac.reid.guest@gmail.com`</a>.
 
-If you want to pay me for a project I have worked on, or so I can make more, you can [pay me via PayPal](https://paypal.me/irg)? Any amount is appreciated.
+<!--If you want to pay me for a project I have worked on, or so I can make more, you can [pay me via PayPal](https://paypal.me/irg)? Any amount is appreciated.
+-->
